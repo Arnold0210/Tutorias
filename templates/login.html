@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+    <link rel="stylesheet" href="{% static 'css/registropersona.css' %}">
+    <title>Inicio de Sesión</title>
+</head>
+    <body>
+
+        <form method="post">
+            {% csrf_token %}
+            <div>
+                <label>Iniciar Sesión</label>
+            </div>
+            {{ form.as_p }}
+            <div>
+                <button type="submit" class="boton">Ingresar</button>
+            </div>
+            <div>
+                <a href="{% url 'password_reset' %}">¿Olvidaste tu constraseña?</a>
+            </div>
+        </form>
+
+    </body>
+</html>

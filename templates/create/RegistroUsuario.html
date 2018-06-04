@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+	<title>Document</title>
+</head>
+<body>
+	<form method="post">
+		{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">guardar</button>
+	</form>
+</body>
+</html>

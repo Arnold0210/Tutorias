@@ -1,0 +1,7 @@
+{% extends 'signup/Registro1.html' %}
+{% block content %}
+    <label>Registro Materia</label>
+	{% csrf_token %}
+	{{ form.as_p }}
+    <button type="submit" class="boton">Guardar</button>
+{% endblock %}

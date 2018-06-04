@@ -1,0 +1,146 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+	Ucatolica 2018
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tutorias - Contactenos</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="{% static 'js/html5shiv.js' %}"></script><![endif]-->
+		<script src="{% static "js/jquery.min.js" %}"></script>
+        <script src="{% static "js/skel.min.js" %}"></script>
+        <script src="{% static "js/skel-layers.min.js" %}"></script>
+        <script src="{% static "js/init.js" %}"></script>
+        <link rel="stylesheet" href="{% static "css/skel.css" %}" />
+        <link rel="stylesheet" href="{% static "css/style.css" %}" />
+        <link rel="stylesheet" href="{% static "css/style-xlarge.css" %}" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="{% url 'home' %}">Inicio</a></li>
+						<li><a href="generic.html">Tutorias</a></li>
+						<li><a href="Masinfo.html">Mas Información</a></li>
+                        <li><a href="contacto.html">Contactenos</a></li>
+						<li><a href="#" class="button small">Ingresar</a></li>
+                        <li><a href="#" class="button small">Registrarse</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+					<header class="major">
+						<h2>Contactenos</h2>
+						<p>Si desea contactarnos para una sugerencia o tienes una pregunta lo puedes realizar por medio de nuestro correo</p>
+					</header>
+                    <div id="mapa" style="height:450px; width:100%;border:1px solid black;z-index: 999;"></div>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm9pl0X8HH2Wa6fkTIfkQzNZwJFGBgmTo&callback=googleMap"async defer></script>
+					<script>
+					function googleMap(){
+						var coorden={lat:4.634772,lng: -74.0688543};
+						var map={
+						center:new google.maps.LatLng(4.634772, -74.0688543),zoom:18
+						};
+						var m=new google.maps.Map(document.getElementById("mapa"),map);
+						var marker = new google.maps.Marker({
+					          position: coorden,
+					          map: m
+					     });
+					}
+					</script>
+                                        <section>
+                                            <br>
+                                            <br/>
+							<h3>Contactenos</h3>
+							<form method="post" action="#">
+                                            <div class="row uniform">
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombre" />
+											</div>
+											<div class="6u$ 12u$(xsmall)">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<textarea name="demo-message" id="demo-message" placeholder="Mensaje" rows="6"></textarea>
+											</div>
+											<div class="12u$">
+												<ul class="actions">
+													<li><input type="submit" name="Enviar" value="Enviar" /></li>
+													<li><input type="reset" value="Limpiar" /></li>
+												</ul>
+											</div>
+										</div>
+							</form>
+                                    <?php
+									if(isset($_POST['Enviar']) && !empty($_POST['Enviar'])){
+										$destino="hgrodriguez78@ucatolica.edu.co";
+								                $desde="From:"."hgrodriguez78";
+										$nombre=$_POST['demo-name'];
+										$correo=$_POST['demo-email'];
+										$mensaje=$_POST['demo-message'];
+										$contenido="Nombre : ".$nombre."\nCorreo :".$correo."\nMensaje : ".$mensaje;
+										$bool=mail($destino, "Mensaje", $contenido,$desde);
+								                if($bool){
+								                     echo "<script>alert('Gracias por contactarnos !');</script>";
+								                }else{
+								                    echo "<script>alert('No se puede enviar el mensaje en este momento !');</script>";
+								                }
+
+									}
+									?>
+						</section>
+				</div>
+			</section>
+                
+                                        
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<section class="links">
+						<div class="row">
+							<section class="3u 6u(medium) 12u$(small)">
+								<ul class="unstyled">
+								</ul>
+							</section>
+						</div>
+					</section>
+					<div class="row">
+						<div class="8u 12u$(medium)">
+                                                        <ul class="copyright">
+								<li>&copy;Todos los derechos reservados.</li>
+								<li>Universidad Catolica</a></li>	
+								<li>Siguenos en: <a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+</html>

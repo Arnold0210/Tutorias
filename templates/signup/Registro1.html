@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="{% static 'images/favicon.ico'%}">
+        <title>Inicio de Sesión</title>
+        <link rel="stylesheet" href="{% static 'css/registropersona.css' %}">
+    </head>
+    <body>
+    <form method="post">
+        {% block content %}
+         <label>Registro</label>
+        {% csrf_token %}
+        <div>
+           {{ form.first_name }}
+        </div>
+        <div>
+            {{ form.last_name }}
+        </div>
+        <div>
+            <input id="id_email" name="email" type="email" placeholder="📧 Correo">
+        </div>
+        <div>
+            {{ form.username }}
+        </div>
+        <div>
+            <input id="id_password1" name="password1" type="password" placeholder="🔑 Contraseña">
+        </div>
+        <div>
+            <input id="id_password2" name="password2" type="password" placeholder="🔑 Confirme su contraseña">
+        </div>
+        <div>
+            {{ form.tipoUsuario }}
+        </div>
+        <div>
+            <button type="submit" class="boton">Registrarme</button>
+        </div>
+            {% endblock %}
+    </form>
+    </body>
+</html>

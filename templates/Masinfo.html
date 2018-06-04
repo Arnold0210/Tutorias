@@ -1,0 +1,105 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mas Información</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+        <link rel="icon" href="{% static 'images/favicon.ico'%}">
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="{% static 'js/jquery.min.js' %}"></script>
+		<script src="{% static 'js/skel.min.js' %}"></script>
+		<script src="{% static 'js/skel-layers.min.js' %}"></script>
+		<script src="{% static 'js/init.js' %}"></script>
+		<noscript>
+			<link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+			<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+			<link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+		</noscript>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="{% url 'home' %}">Inicio</a></li>
+						<li><a href="generic.html">Tutorias</a></li>
+						<li><a href="Masinfo.html">Mas Información</a></li>
+						<li><a href="{% url 'contactenos' %}">Contactenos</a></li>
+						<li><a href="#" class="button small">Ingresar</a></li>
+                        <li><a href="#" class="button small">Registrarse</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>¿Quiénes Somos?</h2>
+					</header>
+
+					<!-- Misión -->
+						<section>
+							<hr/>
+							<h2>Misión</h2>
+							Contribuir con un sistema web que programe tutorías presenciales en la Universidad Católica de Colombia por medio de una plataforma. Para lograrlo, se ha establecido un sistema diseñado que apoya a los estudiantes y docentes del área de Sistemas, esto para que los estudiantes se beneficien y puedan tener un servicio excepcional y un mejor aprendizaje a la hora de requerir oruientación en algún tema en específico.
+							<hr />
+
+							<header>
+								<h2>Visión</h2>
+									Ser un sistema destacado e implementado por la plataforma PAW de la Universidad Católica de Colombia, en donde los estudiantes solicitan tutorías todo el tiempo, disminuyendo así a aquellos que tenían problemas en determinadas asignaturas, facilitando la comunicación entre docentes y estudiantes, convirtiendose este proceso en una acción más fácil y rápida. 
+								<header>
+							<hr />
+								<h2>Objetivos</h2>
+								</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                            </header>
+						</section>
+
+                </div>
+					<!-- Form -->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<section class="links">
+					</section>
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy;Todos los derechos reservados.</li>
+								<li><a>Universidad Catolica</a></li>
+								<li><a>Siguenos en: </a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+            </section>
+	</body>
+</html>

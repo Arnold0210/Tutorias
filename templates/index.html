@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<!--
+	UCATOLICA 2018
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Tutorias</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    {% load staticfiles %}
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <!--<script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/skel.min.js' %}"></script>
+    <script src="{% static 'js/skel-layers.min.js' %}"></script>
+    <script src="{% static 'js/init.js' %}"></script>-->
+    <!--<noscript>-->
+        {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+    <!--</noscript>-->
+</head>
+<body class="landing">
+
+<!-- Header -->
+<header id="header">
+    <h1><a href="{% url 'home' %}"></a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="{% url 'home' %}">Inicio</a></li>
+            <li><a href="generic.html">Tutorias</a></li>
+            <li><a href="Masinfo.html">Mas Información</a></li>
+            <li><a href="{% url 'contactenos' %}">Contactenos</a></li>
+            <li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
+            <li><a href="{% url 'usuario:usuario' %}" class="button small">Registrarse</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Banner -->
+<section id="banner">
+    <h2>Bienvenido a tu Sistema de Tutorias</h2>
+    <p>Donde ir a buscar al maestro es cosa del pasado</p>
+    <ul class="actions">
+    </ul>
+</section>
+
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+    <div class="container">
+
+        <div class="row 150%">
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color1 fa-cloud"></i>
+                    <h3><a href="Masinfo.html">¿Quienes Somos?</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                </section>
+            </div>
+            <div class="4u 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color9 fa-desktop"></i>
+                    <h3><a href="{% url 'usuario:usuario' %}">Registrarte</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+                </section>
+            </div>
+            <div class="4u$ 12u$(medium)">
+                <section class="box">
+                    <i class="icon big rounded color6 fa-rocket"></i>
+                    <h3>Contacto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Two -->
+
+
+<!-- Three -->
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <section class="links">
+            <div class="row">
+            </div>
+        </section>
+        <div class="row">
+            <div class="8u 12u$(medium)">
+                <ul class="copyright">
+                    <li>&copy;Todos los derechos reservados.</li>
+                    <li>Universidad Catolica</li>
+                    <li>Siguenos en:</li>
+                </ul>
+            </div>
+            <div class="4u$ 12u$(medium)">
+                <ul class="icons">
+                    <li>
+                        <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                    </li>
+                    <li>
+                        <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="{% static 'js/jquery.min.js'%}"></script>
+<script src="{% static 'js/skel.min.js' %}"></script>
+<script src="{% static 'js/skel-layers.min.js' %}"></script>
+<script src="{% static 'js/init.js' %}"></script>
+</body>
+</html>
