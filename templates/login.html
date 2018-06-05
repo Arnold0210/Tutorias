@@ -14,7 +14,14 @@
             <div>
                 <label>Iniciar Sesión</label>
             </div>
-            {{ form.as_p }}
+            <div>
+                {{ form.username.errors }}
+                <input id="id_username" maxlength="254" name="username" type="text" placeholder="🔐 Usuario"/>
+            </div>
+            <div>
+                {{ form.password.errors }}
+                <input id="id_password" name="password" type="password" placeholder="🔑 Contraseña"/>
+            </div>
             <div>
                 <button type="submit" class="boton">Ingresar</button>
             </div>

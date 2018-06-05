@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'forgetpassword/Olvido.html' %}
+{% block extrahead %}
+    <title>Activar Usuario</title>
+{% endblock  %}
+{% block content %}
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <label>Este link ha expirado</label>
+    <a href="{% url 'home' %}" class="btn btn-info"> Inicio</a>
 </form>
-</body>
-</html>
+{% endblock %}

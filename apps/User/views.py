@@ -38,7 +38,7 @@ def signup(request):
             user.is_active = False
             user.save()
             current_site = get_current_site(request)
-            mail_subject = 'Activate your blog account.'
+            mail_subject = 'Activa tu cuenta en Tutorias Ucatolica'
             message = render_to_string('user_profile/confirm.html', {
                 'user': user,
                 'domain': current_site.domain,
@@ -50,7 +50,7 @@ def signup(request):
                 mail_subject, message, to=[to_email]
             )
             email.send()
-            return HttpResponse('Please confirm your email address to complete the registration')
+            return HttpResponse(request,'user_profile/confirm.html')
     else:
         form = UserForm()
     return render(request, 'signup/Registro1.html', {'form': form})
@@ -63,8 +63,11 @@ def activate(request, uidb64, token):
     if user is not None and account_activation_token.check_token(user, token):
         user.is_active = True
         user.save()
+        user.backend='django.contrib.auth.backends.ModelBackend'
         login(request, user)
         # return redirect('home')
-        return HttpResponse('Thank you for your email confirmation. Now you can login your account.')
+        #return HttpResponse('Gracias por confirmar tu dirección de correo electronico. Ahora puedes ingresar sin problemas')
+        return render(request,'user_profile/activate.html')
     else:
-        return HttpResponse('Activation link is invalid!')
+        return render(request,'user_profile/confirm_expired.html')
+        #return HttpResponse('El link de activación es inválido o ha expirado')

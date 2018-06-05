@@ -6,14 +6,21 @@ class UserForm(UserCreationForm):
     email = forms.EmailField(required=True)
     class Meta:
         model = User
-        fields = {"username", "email", "password1", "password2","first_name","last_name","tipoUsuario"}
+        fields = {"username",
+                  "email",
+                  "password1",
+                  "password2",
+                  "first_name",
+                  "last_name",
+                  "tipoUsuario"}
+
         widgets ={"first_name":forms.TextInput(attrs={'placeholder': 'Nombres'}),
                   "last_name":forms.TextInput(attrs={'placeholder': 'Apellidos'}),
                   "email":forms.EmailInput(attrs={'placeholder': '📧 Correo'}),
                   "username":forms.TextInput(attrs={'placeholder': '🔐 User'}),
                   "password1":forms.PasswordInput(attrs={'placeholder': '🔑 Contraseña'}),
                   "password2":forms.PasswordInput(attrs={'placeholder': '🔑 Confirme su contraseña'}),
-                  "tipoUsuario":forms.Select(choices=User.default)}
+                  "tipoUsuario":forms.Select()}
 
         def save(self,commit=True):
             # noinspection PySuperArguments
