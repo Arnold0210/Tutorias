@@ -16,25 +16,25 @@
 		<script src="{% static 'js/skel.min.js' %}"></script>
 		<script src="{% static 'js/skel-layers.min.js' %}"></script>
 		<script src="{% static 'js/init.js' %}"></script>
-		<noscript>
+		<!--<noscript>-->
 			<link rel="stylesheet" href="{% static 'css/skel.css' %}" />
 			<link rel="stylesheet" href="{% static 'css/style.css' %}" />
 			<link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
-		</noscript>
+		<!--</noscript>-->
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html"></a></h1>
+				<h1><a href="{% url 'home' %}"></a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="{% url 'home' %}">Inicio</a></li>
 						<li><a href="generic.html">Tutorias</a></li>
 						<li><a href="Masinfo.html">Mas Información</a></li>
 						<li><a href="{% url 'contactenos' %}">Contactenos</a></li>
-						<li><a href="#" class="button small">Ingresar</a></li>
-                        <li><a href="#" class="button small">Registrarse</a></li>
+						<li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
+                        <li><a href="{% url 'usuario:signup' %}" class="button small">Registrarse</a></li>
 					</ul>
 				</nav>
 			</header>

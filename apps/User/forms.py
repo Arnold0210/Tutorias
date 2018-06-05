@@ -17,7 +17,7 @@ class UserForm(UserCreationForm):
         widgets ={"first_name":forms.TextInput(attrs={'placeholder': 'Nombres'}),
                   "last_name":forms.TextInput(attrs={'placeholder': 'Apellidos'}),
                   "email":forms.EmailInput(attrs={'placeholder': '📧 Correo'}),
-                  "username":forms.TextInput(attrs={'placeholder': '🔐 User'}),
+                  "username":forms.TextInput(attrs={'placeholder': '👤  User'}),
                   "password1":forms.PasswordInput(attrs={'placeholder': '🔑 Contraseña'}),
                   "password2":forms.PasswordInput(attrs={'placeholder': '🔑 Confirme su contraseña'}),
                   "tipoUsuario":forms.Select()}

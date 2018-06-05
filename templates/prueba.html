@@ -20,18 +20,17 @@
         <link rel="stylesheet" href="{% static "css/style-xlarge.css" %}" />
 	</head>
 	<body>
-
+    {% csrf_token %}
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html"></a></h1>
+				<h1><a href="{% url 'home' %}"></a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="{% url 'home' %}">Inicio</a></li>
 						<li><a href="generic.html">Tutorias</a></li>
-						<li><a href="Masinfo.html">Mas Información</a></li>
-                        <li><a href="contacto.html">Contactenos</a></li>
-						<li><a href="#" class="button small">Ingresar</a></li>
-                        <li><a href="#" class="button small">Registrarse</a></li>
+						<li><a href="{% url 'masinfo' %}">Mas Información</a></li>
+						<li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
+                        <li><a href="{% url 'usuario:signup' %}" class="button small">Registrarse</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -45,7 +44,7 @@
 					</header>
                     <div id="mapa" style="height:450px; width:100%;border:1px solid black;z-index: 999;"></div>
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm9pl0X8HH2Wa6fkTIfkQzNZwJFGBgmTo&callback=googleMap"async defer></script>
-					<script>
+					<script >
 					function googleMap(){
 						var coorden={lat:4.634772,lng: -74.0688543};
 						var map={
@@ -58,7 +57,7 @@
 					     });
 					}
 					</script>
-                                        <section>
+                        <section>
                                             <br>
                                             <br/>
 							<h3>Contactenos</h3>
@@ -91,9 +90,9 @@
 										$contenido="Nombre : ".$nombre."\nCorreo :".$correo."\nMensaje : ".$mensaje;
 										$bool=mail($destino, "Mensaje", $contenido,$desde);
 								                if($bool){
-								                     echo "<script>alert('Gracias por contactarnos !');</script>";
+								                     echo "alert('Gracias por contactarnos !');";
 								                }else{
-								                    echo "<script>alert('No se puede enviar el mensaje en este momento !');</script>";
+								                    echo "alert('No se puede enviar el mensaje en este momento !');";
 								                }
 
 									}

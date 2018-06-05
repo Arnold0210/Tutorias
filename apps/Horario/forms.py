@@ -3,9 +3,6 @@ from django.contrib.admin import widgets
 
 from apps.Horario.models import Horario
 class  HorarioForm(forms.ModelForm):
-    mydate = forms.DateTimeField(widget=widgets.AdminDateWidget)
-    mytime = forms.TimeField(widget=widgets.AdminTimeWidget)
-    mydatetime = forms.SplitDateTimeField(widget=widgets.AdminSplitDateTime)
     class Meta:
         model = Horario
         fields = [
@@ -25,7 +22,7 @@ class  HorarioForm(forms.ModelForm):
         widgets = {
             'idHorario':forms.TextInput(attrs={'placeholder':'Id'}),
             'dia':forms.TextInput(attrs={'placeholder':'dia'}),
-            #'horaInicio':forms.DateTimeField(),
-            #'horaFinal':forms.DateTimeField(),
+            'horaInicio':forms.TextInput    (),
+            'horaFinal':forms.TextInput(),
             'usuario':forms.CheckboxSelectMultiple(),
         }

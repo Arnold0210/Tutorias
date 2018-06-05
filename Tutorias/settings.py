@@ -140,9 +140,9 @@ ACCOUNT_USER_MODEL_USERNAME_FIELD = None'''
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
 LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = reverse_lazy('horario:horario')
-LOGOUT_URL = 'logout'
-LOGOUT_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = reverse_lazy('main')
+LOGOUT_URL = 'salir'
+LOGOUT_REDIRECT_URL = reverse_lazy('home')
 #email
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'

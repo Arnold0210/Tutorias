@@ -1,5 +1,5 @@
 {% autoescape off %}
-    Hola {{ user.username }},
+    Hola {{ user.first_name }},
     Por favor haz clic en el siguiente
-    <a href=" http://{{ domain }}{% url 'usuario:activate' uidb64=uid token=token %}" style="color: #c91e1f;">enlace</a> para activar tu cuenta.
+     http://{{ domain }}{% url 'usuario:activate' uidb64=uid token=token %}" s para activar tu cuenta.
 {% endautoescape %}

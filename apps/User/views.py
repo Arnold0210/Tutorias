@@ -71,3 +71,11 @@ def activate(request, uidb64, token):
     else:
         return render(request,'user_profile/confirm_expired.html')
         #return HttpResponse('El link de activación es inválido o ha expirado')
+def onlyuser(self,email):
+    C=''
+    for c in A:
+        if c == '@':
+            break
+        else:
+            C=C+c
+    return  C

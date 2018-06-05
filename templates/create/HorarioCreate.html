@@ -9,17 +9,28 @@
 </head>
 <body>
 <form method="POST">
+
     {% block content %}
+        {% if user.tipoUsuario == 'Estudiante'%}
         <label>Registro</label>
+        <label>Estudiante</label>
         {% csrf_token %}
-        {{ form.idHorario }}
-        {{ form.dia }}
-        {{ form.horaInicio }}
-        {{ form.horaFinal }}
-        {{ form.usuario }}
+        <div>
+            {% if form.usuario.tipoUsuario == 'Profesor' %}
+            {{ form.usuario.label_tag }}
+            {{ form.uuario }}
+            {% endif %}
+        </div>
         <div>
             <button type="submit" class="boton">Registrarme</button>
         </div>
+    {% elif user.is_authenticated and user.tipoUsuario == 'Administrador' %}
+        <label>Administrador</label>
+    {% elif user.is_authenticated and user.tipoUsuario == 'Profesor' %}
+    <label>Profesor</label>
+    {% else %}
+            <label>Necesita autenticarse</label>
+    {% endif %}
     {% endblock %}
 </form>
 </body>
