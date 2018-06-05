@@ -133,9 +133,11 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = reverse_lazy('horario:horario')
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'home'
+#email
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 25
+EMAIL_PORT = 587
 EMAIL_HOST_USER = 'tutoriasucatolica@gmail.com'
 EMAIL_HOST_PASSWORD = 'tutorias.ucatolica'
+DEFAULT_FROM_EMAIL ='tutoriasucatolica@gmail.com'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

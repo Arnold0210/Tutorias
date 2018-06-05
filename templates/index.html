@@ -1,4 +1,4 @@
-
+{% load staticfiles %}
 <!DOCTYPE html>
 <!--
 	UCATOLICA 2018
@@ -10,14 +10,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    {% load staticfiles %}
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <!--<script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/jquery.min.js'%}"></script>
     <script src="{% static 'js/skel.min.js' %}"></script>
     <script src="{% static 'js/skel-layers.min.js' %}"></script>
-    <script src="{% static 'js/init.js' %}"></script>-->
+    <script src="{% static 'js/init.js' %}"></script>
     <!--<noscript>-->
-        {% load staticfiles %}
+
         <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
         <link rel="stylesheet" href="{% static 'css/style.css' %}" />
         <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
@@ -35,7 +34,7 @@
             <li><a href="Masinfo.html">Mas Información</a></li>
             <li><a href="{% url 'contactenos' %}">Contactenos</a></li>
             <li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
-            <li><a href="{% url 'usuario:usuario' %}" class="button small">Registrarse</a></li>
+            <li><a href="{% url 'usuario:signup' %}" class="button small">Registrarse</a></li>
         </ul>
     </nav>
 </header>
@@ -63,7 +62,7 @@
             <div class="4u 12u$(medium)">
                 <section class="box">
                     <i class="icon big rounded color9 fa-desktop"></i>
-                    <h3><a href="{% url 'usuario:usuario' %}">Registrarte</a></h3>
+                    <h3><a href="{% url 'usuario:signup' %}">Registrarte</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
                 </section>
             </div>
@@ -117,9 +116,5 @@
         </div>
     </div>
 </footer>
-<script src="{% static 'js/jquery.min.js'%}"></script>
-<script src="{% static 'js/skel.min.js' %}"></script>
-<script src="{% static 'js/skel-layers.min.js' %}"></script>
-<script src="{% static 'js/init.js' %}"></script>
 </body>
 </html>
