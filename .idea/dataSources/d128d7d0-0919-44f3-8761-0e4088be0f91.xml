@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="Django default">
+<dataSource name="test@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.9">
     <root id="1">
       <ServerVersion>5.5.5</ServerVersion>
@@ -1284,19 +1284,19 @@ model</ColNames>
     </column>
     <column id="313" parent="251" name="dia">
       <Position>2</Position>
-      <DataType>datetime|0s</DataType>
+      <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="314" parent="251" name="horaInicio">
       <Position>3</Position>
-      <DataType>datetime|0s</DataType>
+      <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="315" parent="251" name="horaFinal">
       <Position>4</Position>
-      <DataType>datetime|0s</DataType>
+      <DataType>longtext|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>

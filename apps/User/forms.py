@@ -33,6 +33,8 @@ class UserForm(UserCreationForm):
         def clean_email(self):
             email = self.cleaned_data["email"]
             try:
+                if not "ucatolica.edu.co" in email:
+                    raise forms.ValidationError("Por favor utilice el correo Institucional")
                 User._default_manager.get(email=email)
             except User.DoesNotExist:
                 return email

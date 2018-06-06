@@ -50,7 +50,7 @@ def signup(request):
                 mail_subject, message, to=[to_email]
             )
             email.send()
-            return HttpResponse(request,'user_profile/confirm.html')
+            return render(request,'user_profile/confirm_email.html')
     else:
         form = UserForm()
     return render(request, 'signup/Registro1.html', {'form': form})
@@ -73,7 +73,7 @@ def activate(request, uidb64, token):
         #return HttpResponse('El link de activación es inválido o ha expirado')
 def onlyuser(self,email):
     C=''
-    for c in A:
+    for c in email:
         if c == '@':
             break
         else:

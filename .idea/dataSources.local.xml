@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Django default" uuid="b4b77fbd-8112-4c13-b32b-d09cb7d79402">
+    <data-source name="test@localhost" uuid="d128d7d0-0919-44f3-8761-0e4088be0f91">
       <database-info product="MySQL" version="5.5.5-10.1.26-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

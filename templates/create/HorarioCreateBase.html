@@ -1,0 +1,25 @@
+{% extends 'create/HorarioIndexBase.html' %}
+{% block formadmin %}
+    <div>
+
+        {{ form.idHorario }}
+    </div>
+    <div>
+        {{ form.dia.label_tag }}
+        {{ form.dia }}
+    </div>
+    <div>
+        {{ form.horaInicio.label_tag }}
+        {{ form.horaInicio }}
+    </div>
+    <div>
+        {{ form.horaFinal.label_tag }}
+        {{ form.horaFinal }}
+    </div>
+    <div>
+        {{ form.usuario.label_tag }}
+
+        {{ form.usuario }}
+    </div>
+    <button class="button boton btn">Guardar</button>
+{% endblock %}

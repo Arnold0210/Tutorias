@@ -1,0 +1,35 @@
+{% extends 'main.html' %}
+{% block title %}
+    Horario
+{% endblock %}
+
+{% block navadmin %}
+    <li><a href="{% url 'horario:createhorario' %}">Crear Horario</a></li>
+    <li><a href="#">Actualizar Horario</a></li>
+    <li><a href="{% url 'horario:horariolist' %}">Consultar Horario</a></li>
+    <li><a href="#">Borrar Horario</a></li>
+{% endblock %}
+{% block navstudent %}
+    <li><a href="#">Agendar Tutoria</a></li>
+    <li><a href="#">Horario</a></li>
+    <li><a href="#">Materia</a></li>
+    <li><a href="#">Usuario</a></li>
+{% endblock %}
+{% block navteacher %}
+    <li><a href="{% url 'horario:horarioindex' %}">Tutorias</a></li>
+    <li><a href="#">Horario</a></li>
+    <li><a href="#">Materia</a></li>
+    <li><a href="#">Usuario</a></li>
+{% endblock %}
+{% block banner_ul %}
+    Horario
+{% endblock %}
+{% block bodyadmin %}
+    Administrador
+    <form method="post" class="container">
+    {% csrf_token %}
+    {% block formadmin %}
+        Este es un form de index
+    {% endblock %}
+    </form>
+{% endblock %}

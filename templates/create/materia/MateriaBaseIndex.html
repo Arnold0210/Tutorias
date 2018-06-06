@@ -1,0 +1,111 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+	UCATOLICA 2018
+ -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Sistema de Tutorias - Agendar Tutoria</title>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <meta name="description" content="" />
+            <meta name="keywords" content="" />
+            <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+            <script src="{% static 'js/jquery.min.js'%}"></script>
+            <script src="{% static 'js/skel.min.js' %}"></script>
+            <script src="{% static 'js/skel-layers.min.js' %}"></script>
+            <script src="{% static 'js/init.js' %}"></script>
+            <!--<noscript>-->
+            <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+            <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+            <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+            <!--</noscript>-->
+    </head>
+    <body class="landing">
+        {% csrf_token %}
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="{% url 'home' %}"></a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="{% url 'home' %}">Inicio</a></li>
+                    <li><a href="{% url 'masinfo' %}">Mas Información</a></li>
+                    <li><a href="{% url 'contactenos' %}">Contactenos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Main -->
+        <section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>Horario de Tutorias</h2>
+						<p>Agendar la tutoria en el horario que desee</p>
+					</header>
+					<!-- Form -->
+						<section>
+							<h3>Agendar</h3>
+							<form method="post" action="#">
+								<div class="row uniform 50%">
+										<div class="select-wrapper">
+											<select name="Materias" id="Materias">
+												<option value="">- Materias -</option>
+												<option value="1">Asigantura1</option>
+												<option value="1">Asigantura2</option>
+												<option value="1">Asigantura3</option>
+												<option value="1">Asigantura4</option>
+											</select>
+										</div>
+                                        <div class="select-wrapper">
+                                            <select name="Profesor" id="Profesor">
+                                                <option value="">- Profesores -</option>
+                                                <option value="1">Asigantura1</option>
+                                                <option value="1">Asigantura2</option>
+                                                <option value="1">Asigantura3</option>
+                                                <option value="1">Asigantura4</option>
+                                            </select>
+                                        </div>
+									</div>
+                                </div>
+							</form>
+						</section>
+                    </div>
+			</section>
+
+		<!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <section class="links">
+                    <div class="row">
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="8u 12u$(medium)">
+                        <ul class="copyright">
+                            <li>&copy;Todos los derechos reservados.</li>
+                            <li>Universidad Catolica</li>
+                            <li>Siguenos en:</li>
+                        </ul>
+                    </div>
+                    <div class="4u$ 12u$(medium)">
+                        <ul class="icons">
+                            <li>
+                                <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

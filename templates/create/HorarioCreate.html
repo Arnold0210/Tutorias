@@ -1,37 +1,9 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="{% static 'images/favicon.ico'%}">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="{% static 'css/registropersona.css' %}">
-</head>
-<body>
-<form method="POST">
-
-    {% block content %}
-        {% if user.tipoUsuario == 'Estudiante'%}
-        <label>Registro</label>
-        <label>Estudiante</label>
-        {% csrf_token %}
-        <div>
-            {% if form.usuario.tipoUsuario == 'Profesor' %}
-            {{ form.usuario.label_tag }}
-            {{ form.uuario }}
-            {% endif %}
-        </div>
-        <div>
-            <button type="submit" class="boton">Registrarme</button>
-        </div>
-    {% elif user.is_authenticated and user.tipoUsuario == 'Administrador' %}
-        <label>Administrador</label>
-    {% elif user.is_authenticated and user.tipoUsuario == 'Profesor' %}
-    <label>Profesor</label>
-    {% else %}
-            <label>Necesita autenticarse</label>
-    {% endif %}
-    {% endblock %}
-</form>
-</body>
-</html>
+{% extends 'create/HorarioCreateBase.html' %}
+{% block contentadmincreate %}
+    ID{{ form.idHorario}}
+    DIA{{ form.dia }}
+    Hora Inicio{{ form.horaInicio }}
+    Hora Final{{ form.horaFinal }}
+    Profesor {{ form.usuario}}
+    <button type="submit" class="boton">Añadir Horario</button>
+{% endblock %}

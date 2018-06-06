@@ -5,8 +5,19 @@
       <w>confirme</w>
       <w>contraseña</w>
       <w>correo</w>
+      <w>estudiante</w>
+      <w>horario</w>
+      <w>inicio</w>
+      <w>jueves</w>
+      <w>lunes</w>
+      <w>martes</w>
+      <w>materia</w>
+      <w>miercoles</w>
       <w>nombres</w>
+      <w>profesor</w>
+      <w>sabado</w>
       <w>tipo</w>
+      <w>viernes</w>
     </words>
   </dictionary>
 </component>

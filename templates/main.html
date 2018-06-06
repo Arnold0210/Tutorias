@@ -1,95 +1,38 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<!--
-	UCATOLICA 2018
--->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+{% extends 'mainbase.html' %}
     {% block title %}
-    <title>Sistema de Tutorias</title>
-    {% endblock %}
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    {% block bootstrap %}
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <script src="{% static 'js/jquery.min.js'%}"></script>
-    <script src="{% static 'js/skel.min.js' %}"></script>
-    <script src="{% static 'js/skel-layers.min.js' %}"></script>
-    <script src="{% static 'js/init.js' %}"></script>
-    <!--<noscript>-->
-    <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+        Inicio
     {% endblock %}
     {% block extrabootstrap %}
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     {% endblock %}
-    <!--</noscript>-->
-</head>
-<body class="landing">
-<!-- Header -->
-<header id="header">
-    <h1>Bienvenido/a: <a href="{% url 'main' %}">{{ user.first_name }} </a></h1>
-    <nav id="nav">
-        <ul>
-            <li><a href="{% url 'home' %}">Inicio</a></li>
-            <li><a href="#">Agendar Tutoria</a></li>
-
-            <li><a href="{% url 'salir' %}">Cerrar Sesión</a> </li>
-        </ul>
-    </nav>
-</header>
-
-<!-- Banner -->
-<section id="banner">
-    <ul class="actions">
-    </ul>
-</section>
-{% block content %}
-
-{% endblock %}
-<!-- One -->
-
-<!-- Two -->
-
-<!-- Three -->
-
-<!-- Footer -->
-
-<footer id="footer">
-    <div class="container">
-        <section class="links">
-            <div class="row">
-            </div>
-        </section>
-        <div class="row">
-            <div class="8u 12u$(medium)">
-                <ul class="copyright">
-                    <li>&copy;Todos los derechos reservados.</li>
-                    <li>Universidad Catolica</li>
-                    <li>Siguenos en:</li>
-                </ul>
-            </div>
-            <div class="4u$ 12u$(medium)">
-                <ul class="icons">
-                    <li>
-                        <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
-                    </li>
-                    <li>
-                        <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+    {% block navadmin %}
+        <li><a href="{% url 'horario:horarioindexbase' %}">Horario</a></li>
+        <li><a href="#">Materia</a></li>
+        <li><a href="#">Usuario</a></li>
+    {% endblock %}
+    {% block navstudent %}
+        <li><a href="#">Agendar Tutoria</a></li>
+        <li><a href="#">Horario</a></li>
+        <li><a href="#">Materia</a></li>
+        <li><a href="#">Usuario</a></li>
+    {% endblock %}
+    {% block navteacher %}
+        <li><a href="{% url 'horario:horarioindexbase' %}">Tutorias</a></li>
+        <li><a href="#">Horario</a></li>
+        <li><a href="#">Materia</a></li>
+        <li><a href="#">Usuario</a></li>
+    {% endblock %}
+    {% block banner_ul %}
+        SISTEMA DE TUTORIAS
+    {% endblock %}
+    {% block bodyadmin %}
+        Administrador
+    {% endblock %}
+    {% block bodystudent %}
+        Estudiante
+    {% endblock %}
+    {% block bodyteacher %}
+        Profesor
+    {% endblock %}

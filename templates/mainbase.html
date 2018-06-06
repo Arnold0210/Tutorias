@@ -1,0 +1,116 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--
+	UCATOLICA 2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}::{{ user.tipoUsuario }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+    {% if user.tipoUsuario == 'Estudiante'%}
+        {% block studenthead %}
+        {% endblock %}
+    {% elif user.is_authenticated and user.tipoUsuario == 'Administrador' %}
+        {% block adminhead %}
+        {% endblock %}
+    {% elif user.is_authenticated and user.tipoUsuario == 'Profesor' %}
+        {% block teacherhead %}
+        {% endblock %}
+    {% endif %}
+{% block bootstrap %}
+        <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="{% static 'js/jquery.min.js'%}"></script>
+        <script src="{% static 'js/skel.min.js' %}"></script>
+        <script src="{% static 'js/skel-layers.min.js' %}"></script>
+        <script src="{% static 'js/init.js' %}"></script>
+{% endblock %}
+        <!--<noscript>-->
+        <!--</noscript>-->
+    {% block extrabootstrap %}
+
+    {% endblock %}
+</head>
+    <body>
+    <header id="header">
+        <link rel="icon" href="{% static 'images/favicon.ico'%}">
+        <h1>Bienvenido/a: <a href="{% url 'main' %}">{{ user.first_name }} {{ user.last_name }}</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="{% url 'main' %}">Inicio</a></li>
+                    {% if user.tipoUsuario == 'Estudiante'%}
+                        {% block navstudent %}
+                        {% endblock %}
+                    {% elif user.is_authenticated and user.tipoUsuario == 'Administrador' %}
+                        {% block navadmin %}
+                        {% endblock %}
+                    {% elif user.is_authenticated and user.tipoUsuario == 'Profesor' %}
+                        {% block navteacher %}
+                        {% endblock %}
+                    {% endif %}
+                <li><a href="{% url 'salir' %}">Cerrar Sesión</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner">
+        <h1 style="font-size: 20px; color: white;">
+            {% block banner_ul %}
+            {% endblock %}
+        </h1>
+        <ul class="actions">
+        </ul>
+    </section>
+    {% if user.tipoUsuario == 'Estudiante'%}
+        {% block bodystudent %}
+        {% endblock %}
+    {% elif user.is_authenticated and user.tipoUsuario == 'Administrador' %}
+        {% block bodyadmin %}
+        {% endblock %}
+    {% elif user.is_authenticated and user.tipoUsuario == 'Profesor' %}
+        {% block bodyteacher %}
+        {% endblock %}
+    {% endif %}
+    {% block footer %}
+        <footer id="footer">
+            <div class="container">
+                <section class="links">
+                    <div class="row">
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="8u 12u$(medium)">
+                        <ul class="copyright">
+                            <li>&copy;Todos los derechos reservados.</li>
+                            <li>Universidad Catolica</li>
+                            <li>Siguenos en:</li>
+                        </ul>
+                    </div>
+                    <div class="4u$ 12u$(medium)">
+                        <ul class="icons">
+                            <li>
+                                <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+                            </li>
+                            <li>
+                                <a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    {% endblock %}
+    </body>
+</html>

@@ -8,10 +8,9 @@
         <link rel="stylesheet" href="{% static 'css/registropersona.css' %}">
     </head>
     <body>
-    <form method="post"     >{% csrf_token %}
+    <form method="post">{% csrf_token %}
         {% block content %}
          <label>Registro</label>
-
         <div>
            {{ form.first_name }}
         </div>

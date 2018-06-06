@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Django default" uuid="b4b77fbd-8112-4c13-b32b-d09cb7d79402">
+    <data-source source="LOCAL" name="test@localhost" uuid="d128d7d0-0919-44f3-8761-0e4088be0f91">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/Tutorias/settings.py</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3307/test</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3307/test</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

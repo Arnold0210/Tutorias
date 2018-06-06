@@ -1,0 +1,10 @@
+{% extends 'forgetpassword/Olvido.html' %}
+{% block extrahead %}
+    <title>Activar Usuario</title>
+{% endblock  %}
+{% block content %}
+    <form >
+    <label>Se ha enviado un correo de verifiación a tu cuenta por favor abrelo, para poder activar tu cuenta y que puedas acceder sin problemas</label>
+    <a class="button boton" href="{% url 'home' %}">Inicio</a>
+    </form>
+{% endblock %}
