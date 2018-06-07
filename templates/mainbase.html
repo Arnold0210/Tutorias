@@ -22,26 +22,26 @@
         {% block teacherhead %}
         {% endblock %}
     {% endif %}
-{% block bootstrap %}
-        <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
-        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-        <script src="{% static 'js/jquery.min.js'%}"></script>
-        <script src="{% static 'js/skel.min.js' %}"></script>
-        <script src="{% static 'js/skel-layers.min.js' %}"></script>
-        <script src="{% static 'js/init.js' %}"></script>
-{% endblock %}
-        <!--<noscript>-->
-        <!--</noscript>-->
     {% block extrabootstrap %}
 
     {% endblock %}
+    {% block bootstrap %}
+            <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+            <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+            <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
+            <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+            <script src="{% static 'js/jquery.min.js'%}"></script>
+            <script src="{% static 'js/skel.min.js' %}"></script>
+            <script src="{% static 'js/skel-layers.min.js' %}"></script>
+            <script src="{% static 'js/init.js' %}"></script>
+    {% endblock %}
+        <!--<noscript>-->
+        <!--</noscript>-->
 </head>
     <body>
     <header id="header">
         <link rel="icon" href="{% static 'images/favicon.ico'%}">
-        <h1>Bienvenido/a: <a href="{% url 'main' %}">{{ user.first_name }} {{ user.last_name }}</a></h1>
+        <h1>Bienvenido/a: <a href="{% url 'main' %}">{{ user.first_name }}</a></h1>
         <nav id="nav">
             <ul>
                 <li><a href="{% url 'main' %}">Inicio</a></li>
@@ -55,7 +55,7 @@
                         {% block navteacher %}
                         {% endblock %}
                     {% endif %}
-                <li><a href="{% url 'salir' %}">Cerrar Sesión</a> </li>
+                <li><a href="{% url 'salir' %}"  class="button small">Cerrar Sesión</a> </li>
             </ul>
         </nav>
     </header>

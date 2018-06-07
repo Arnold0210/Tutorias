@@ -2,34 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6435f12-abf6-45a1-8ee9-051b5b1a01a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/create/HorarioCreateBase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/create/HorarioIndexBase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/create/HorarioList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mainbase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user_profile/confirm_email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b77fbd-8112-4c13-b32b-d09cb7d79402.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4b77fbd-8112-4c13-b32b-d09cb7d79402.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Horario/ajax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/create/tutoria/agendarTutoria.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/create/tutoria/agendarbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tutorias.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tutorias.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae963359-a4b2-456e-900f-8440eb6954cf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4b77fbd-8112-4c13-b32b-d09cb7d79402.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d128d7d0-0919-44f3-8761-0e4088be0f91.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d128d7d0-0919-44f3-8761-0e4088be0f91.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Arnold.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Arnold.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorias/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorias/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/Horario/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Horario/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Horario/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Horario/migrations/0002_horario_usuario.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/Horario/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Horario/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/Horario/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Horario/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/Horario/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/Horario/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Materia/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Materia/migrations/0002_materia_usuario.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/Persona/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/TipoUsuario/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/User/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/User/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/User/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/User/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/User/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create/HorarioCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/HorarioCreate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Masinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Masinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create/HorarioCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/horario/HorarioCreate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create/HorarioCreateBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/horario/HorarioCreateBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create/HorarioIndexBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/horario/HorarioIndexBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create/HorarioList.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/horario/HorarioList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create/RegistroMateria.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create/RegistroMateria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/forgetpassword/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forgetpassword/password_reset_email.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup/Registro1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup/Registro1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mainbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/prueba.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/prueba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup/Registro1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user_profile/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_profile/confirm.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +69,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="horario_tutoria: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -74,24 +84,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HorarioIndexBase.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/create/HorarioIndexBase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <element signature="n#block#3;n#!!top" />
-                <element signature="n#block#4;n#!!top" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="ajax.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/Horario/ajax.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/Horario/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="280">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -99,65 +101,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="agendarTutoria.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/create/tutoria/agendarTutoria.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/Horario/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+            <state relative-caret-position="119">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#208#1276#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/Horario/forms.py">
+      <file leaf-file-name="HorarioList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/create/horario/HorarioList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/User/views.py">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/User/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HorarioCreate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/create/HorarioCreate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HorarioCreateBase.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/create/HorarioCreateBase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -178,6 +157,9 @@
       <find>bokeh_car_lights_bg</find>
       <find>list</find>
       <find>chec</find>
+      <find>this</find>
+      <find>field re</find>
+      <find>checkbox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,14 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/css/registropersona.css" />
-        <option value="$PROJECT_DIR$/apps/Usuario/views.py" />
-        <option value="$PROJECT_DIR$/apps/Usuario/admin.py" />
-        <option value="$PROJECT_DIR$/apps/Usuario/urls.py" />
-        <option value="$PROJECT_DIR$/apps/Usuario/models.py" />
-        <option value="$PROJECT_DIR$/apps/Usuario/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/apps/Materia/models.py" />
-        <option value="$PROJECT_DIR$/apps/User/admin.py" />
         <option value="C:/Python34/Lib/site-packages/django/contrib/auth/forms.py" />
         <option value="$PROJECT_DIR$/apps/TipoUsuario/views.py" />
         <option value="$PROJECT_DIR$/apps/TipoUsuario/urls.py" />
@@ -213,37 +187,45 @@
         <option value="$PROJECT_DIR$/templates/forgetpassword/password_reset_form.html" />
         <option value="$PROJECT_DIR$/templates/user_profile/activate.html" />
         <option value="$PROJECT_DIR$/templates/user_profile/confirm_expired.html" />
-        <option value="$PROJECT_DIR$/templates/forgetpassword/password_reset_email.html" />
-        <option value="$PROJECT_DIR$/templates/Masinfo.html" />
         <option value="$PROJECT_DIR$/apps/User/urls.py" />
         <option value="C:/Python34/Lib/site-packages/django/contrib/auth/models.py" />
         <option value="$PROJECT_DIR$/templates/prueba.php" />
         <option value="$PROJECT_DIR$/templates/logout.html" />
-        <option value="$PROJECT_DIR$/Tutorias/settings.py" />
-        <option value="$PROJECT_DIR$/templates/prueba.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/create/HorarioCreateAdmin.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/signup/Registro1.html" />
         <option value="$PROJECT_DIR$/Tutorias/urls.py" />
-        <option value="$PROJECT_DIR$/apps/User/views.py" />
         <option value="$PROJECT_DIR$/templates/forgetpassword/Olvido.html" />
         <option value="$PROJECT_DIR$/templates/user_profile/confirm_email.html" />
-        <option value="$PROJECT_DIR$/templates/mainbase.html" />
-        <option value="$PROJECT_DIR$/templates/user_profile/confirm.html" />
-        <option value="$PROJECT_DIR$/apps/Horario/models.py" />
         <option value="$PROJECT_DIR$/static/css/skel.css" />
         <option value="$PROJECT_DIR$/templates/create/HorarioAdmin.html" />
         <option value="$PROJECT_DIR$/apps/Horario/urls.py" />
-        <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/create/HorarioList.html" />
         <option value="$PROJECT_DIR$/templates/create/HorarioIndexBase.html" />
         <option value="$PROJECT_DIR$/templates/create/HorarioCreate.html" />
         <option value="$PROJECT_DIR$/templates/create/HorarioCreateBase.html" />
+        <option value="$PROJECT_DIR$/Tutorias/settings.py" />
         <option value="$PROJECT_DIR$/apps/User/forms.py" />
-        <option value="$PROJECT_DIR$/apps/Horario/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/Masinfo.html" />
+        <option value="$PROJECT_DIR$/templates/prueba.html" />
+        <option value="$PROJECT_DIR$/templates/user_profile/confirm.html" />
+        <option value="$PROJECT_DIR$/templates/forgetpassword/password_reset_email.html" />
+        <option value="$PROJECT_DIR$/apps/User/views.py" />
+        <option value="$PROJECT_DIR$/templates/signup/signup.html" />
+        <option value="$USER_HOME$/Envs/ProjectSI/Lib/site-packages/django/contrib/auth/models.py" />
+        <option value="$PROJECT_DIR$/apps/Horario/models.py" />
+        <option value="$PROJECT_DIR$/templates/mainbase.html" />
+        <option value="$PROJECT_DIR$/templates/create/horario/HorarioCreateBase.html" />
+        <option value="$PROJECT_DIR$/templates/create/horario/HorarioCreate.html" />
+        <option value="$PROJECT_DIR$/templates/create/horario/HorarioList.html" />
+        <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/apps/Horario/ajax.py" />
         <option value="$PROJECT_DIR$/apps/Horario/forms.py" />
+        <option value="$PROJECT_DIR$/templates/create/tutoria/agendarbase.html" />
+        <option value="$PROJECT_DIR$/templates/create/tutoria/agendarTutoria.html" />
+        <option value="$PROJECT_DIR$/apps/Horario/views.py" />
       </list>
     </option>
   </component>
@@ -256,8 +238,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -267,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,10 +267,40 @@
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="Horario" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+              <item name="tutoria" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,21 +309,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/create/horario" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ambientes\Tutorias\Tutorias\templates\create\horario" />
       <recent name="C:\ambientes\Tutorias\Tutorias\templates\forgetpassword" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ambientes\Tutorias\Tutorias\templates\create" />
       <recent name="C:\ambientes\Tutorias\Tutorias\apps\Horario" />
       <recent name="C:\ambientes\Tutorias\Tutorias\apps\Materia" />
       <recent name="C:\ambientes\Tutorias\Tutorias\apps\Persona" />
       <recent name="C:\ambientes\Tutorias\Tutorias\apps\TipoUsuario" />
-      <recent name="C:\ambientes\Tutorias\Tutorias" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,7 +340,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tutorias" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="TutoriasRun" type="Python.DjangoServer" factoryName="Django server" editBeforeRun="true">
       <module name="Tutorias" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,20 +348,23 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Tutorias.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\TRABAJO\Envs\ProjectSI\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://192.168.1.25:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method>
+        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="htttp://sistematutorias.com" />
+      </method>
     </configuration>
   </component>
   <component name="SQLScriptSettings">
@@ -390,19 +405,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.464986" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.34983498" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.37458745" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.53501403" weight="0.30858085" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1505295" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.24917492" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.53501403" weight="0.21782178" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34850863" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" weight="0.16187595" />
+      <window_info anchor="right" id="Database" order="4" weight="0.33585477" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3290469" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -418,6 +433,32 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32838285" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32838285" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15506808" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.6354009" weight="0.32838285" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.3290469" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32838285" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.24917492" />
+      <window_info anchor="bottom" id="SQL Generator" order="15" weight="0.32838285" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.37458745" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.16187595" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.53501403" visible="true" weight="0.21782178" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.464986" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -457,82 +498,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Horario/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Materia/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contacto.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Horario/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1039" column="5" selection-start-line="1039" selection-start-column="5" selection-end-line="1039" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Materia/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Persona/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="467" column="22" selection-start-line="467" selection-start-column="22" selection-end-line="467" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Materia/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/User/tokens.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm_expired.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -550,68 +525,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tutorias/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="145" column="6" lean-forward="true" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
-          <folding>
-            <element signature="e#309#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/forgetpassword/Olvido.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup/Registro1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm_email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/horario_horario_usuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/user_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/horario_horario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/horario_horario_usuario" />
+    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/user_user" />
+    <entry file="das://b4b77fbd-8112-4c13-b32b-d09cb7d79402/schema/test/table/horario_horario" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d128d7d0-0919-44f3-8761-0e4088be0f91/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,13 +552,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/TipoUsuario/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/django/contrib/auth/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,20 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/horario_horario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/horario_horario_usuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tutorias/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -676,34 +575,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainbase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/create/HorarioList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/Persona/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/user_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgetpassword/Olvido.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/prueba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="124" column="30" lean-forward="true" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Masinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorias/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgetpassword/password_reset_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgetpassword/password_reset_form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm_expired.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_profile/confirm_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgetpassword/password_reset_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/User/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/ProjectSI/Lib/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/ProjectSI/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="296" column="31" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/User/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -717,20 +702,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/forms.py">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-78">
+          <caret line="318" column="28" selection-start-line="318" selection-start-column="20" selection-end-line="318" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/create/HorarioIndexBase.html">
+    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/user_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create/horario/HorarioIndexBase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="391">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="n#block#3;n#!!top" />
             <element signature="n#block#4;n#!!top" />
@@ -738,63 +727,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="36" column="73" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/create/HorarioCreateBase.html">
+    <entry file="file://$PROJECT_DIR$/templates/mainbase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="286">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#429#469#0#DjangoTemplate" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Horario/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/create/horario/HorarioCreateBase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/horario_horario_usuario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d128d7d0-0919-44f3-8761-0e4088be0f91/schema/test/table/horario_horario">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create/horario/HorarioCreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create/horario/HorarioList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+        <state relative-caret-position="119">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#208#1276#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/create/HorarioCreate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        <state relative-caret-position="-332">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/Horario/ajax.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create/tutoria/agendarTutoria.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/create/tutoria/agendarbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/Horario/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

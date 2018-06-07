@@ -1,5 +1,11 @@
-{% autoescape off %}
-    Hola {{ user.first_name }},
-    Por favor haz clic en el siguiente
-    <a  href="http://{{ domain }}{% url 'usuario:activate' uidb64=uid token=token %}" target="_blank">Link de Verificación</a> s para activar tu cuenta.
-{% endautoescape %}
+<html>
+    <head>
+    </head>
+    <body>
+    {% autoescape off %}
+        Hola {{ user.first_name }},
+        Por favor haz clic en el siguiente
+        <a  href="http://{{ domain }}{% url 'usuario:activate' uidb64=uid token=token %}" target="_blank">Link de Verificación</a> s para activar tu cuenta.
+    {% endautoescape %}
+    </body>
+</html>

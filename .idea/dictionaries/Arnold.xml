@@ -2,11 +2,13 @@
   <dictionary name="Arnold">
     <words>
       <w>apellidos</w>
+      <w>codigo</w>
       <w>confirme</w>
       <w>contraseña</w>
       <w>correo</w>
       <w>estudiante</w>
       <w>horario</w>
+      <w>inicial</w>
       <w>inicio</w>
       <w>jueves</w>
       <w>lunes</w>
@@ -16,6 +18,7 @@
       <w>nombres</w>
       <w>profesor</w>
       <w>sabado</w>
+      <w>seleccione</w>
       <w>tipo</w>
       <w>viernes</w>
     </words>

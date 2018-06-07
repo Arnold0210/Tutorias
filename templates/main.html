@@ -14,15 +14,14 @@
     {% endblock %}
     {% block navstudent %}
         <li><a href="#">Agendar Tutoria</a></li>
-        <li><a href="#">Horario</a></li>
-        <li><a href="#">Materia</a></li>
+        <!--<li><a href="{% url 'horario:horariolist' %}">Horario</a></li>
+        <li><a href="#">Materia</a></li>-->
         <li><a href="#">Usuario</a></li>
     {% endblock %}
     {% block navteacher %}
         <li><a href="{% url 'horario:horarioindexbase' %}">Tutorias</a></li>
         <li><a href="#">Horario</a></li>
         <li><a href="#">Materia</a></li>
-        <li><a href="#">Usuario</a></li>
     {% endblock %}
     {% block banner_ul %}
         SISTEMA DE TUTORIAS
@@ -31,7 +30,7 @@
         Administrador
     {% endblock %}
     {% block bodystudent %}
-        Estudiante
+        Como pedir una tutoria!!!!
     {% endblock %}
     {% block bodyteacher %}
         Profesor

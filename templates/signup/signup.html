@@ -12,24 +12,27 @@
         {% block content %}
          <label>Registro</label>
         <div>
+            {{ form.first_name.errors }}
            {{ form.first_name }}
         </div>
         <div>
+            {{ form.last_name.errors }}
             {{ form.last_name }}
         </div>
         <div>
+            {{ form.email.errors }}
             <input id="id_email" name="email" type="email" placeholder="📧 Correo">
         </div>
         <div>
-            {{ form.errors.values.0 }}
+            {{ form.username.errors }}
             {{ form.username }}
         </div>
         <div>
-            {{ form.errors.values.1 }}
+            {{ form.password1.errors}}
             <input id="id_password1" name="password1" type="password" placeholder="🔑 Contraseña">
         </div>
         <div>
-            {{ form.email.errors }}
+            {{ form.password2.errors }}
             <input id="id_password2" name="password2" type="password" placeholder="🔑 Confirme su contraseña">
         </div>
         <div>

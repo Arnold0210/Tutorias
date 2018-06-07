@@ -1,14 +1,9 @@
-from distutils import core
-
-from django.shortcuts import render, redirect
-
 from django.views.generic import CreateView
 
-from django.http import HttpResponse
 #cinfirmation
-from django.http import HttpResponse
-from django.shortcuts import render, redirect
-from django.contrib.auth import login, authenticate
+
+from django.shortcuts import render
+from django.contrib.auth import login
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
@@ -19,8 +14,6 @@ from django.core.mail import EmailMessage
 #endconfirmation
 from django.core.urlresolvers import reverse_lazy
 #App imports
-from apps.User.models import User
-from apps.User.forms import UserForm
 from .forms import *
 from .models import *
 
@@ -28,8 +21,16 @@ from .models import *
 class UserView(CreateView):
     model = User
     form_class = UserForm
-    template_name = 'signup/Registro1.html'
+    template_name = 'signup/signup.html'
     success_url = reverse_lazy('login')
+def onlyuser(self,email):
+    C=''
+    for c in email:
+        if c == '@':
+            break
+        else:
+            C=C+c
+    return  C
 def signup(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
@@ -53,7 +54,7 @@ def signup(request):
             return render(request,'user_profile/confirm_email.html')
     else:
         form = UserForm()
-    return render(request, 'signup/Registro1.html', {'form': form})
+    return render(request, 'signup/signup.html', {'form': form})
 def activate(request, uidb64, token):
     try:
         uid = force_text(urlsafe_base64_decode(uidb64))
@@ -71,11 +72,3 @@ def activate(request, uidb64, token):
     else:
         return render(request,'user_profile/confirm_expired.html')
         #return HttpResponse('El link de activación es inválido o ha expirado')
-def onlyuser(self,email):
-    C=''
-    for c in email:
-        if c == '@':
-            break
-        else:
-            C=C+c
-    return  C

@@ -1,0 +1,18 @@
+{% extends 'create/horario/HorarioCreateBase.html' %}
+
+{% block formadmincreate %}
+    {% for field in form %}
+        <div>
+        {{ field.errors }}
+        </div>
+        <div >
+            {{ field.label_tag }}
+        </div>
+        <div >
+            {{ field }}
+        </div>
+    {% endfor %}
+    <div>
+        <button type="submit" class="btn btn-successs">Guardar</button>
+    </div>
+{% endblock %}
