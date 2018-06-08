@@ -39,7 +39,9 @@
             {{ form.tipoUsuario }}
         </div>
         <div>
-            <button type="submit" class="boton">Registrarme</button>
+            <button type="submit" class="boton" id="signup" onclick="function f() {
+                alert('Al hacer clic en este boton acepta nuestros terminos y condiciones')
+            }">Registrarme</button>
         </div>
             {% endblock %}
     </form>

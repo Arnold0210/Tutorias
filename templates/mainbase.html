@@ -55,6 +55,7 @@
                         {% block navteacher %}
                         {% endblock %}
                     {% endif %}
+                <li><a href="{% url 'usuario:user_view' %}">Usuario</a></li>
                 <li><a href="{% url 'salir' %}"  class="button small">Cerrar Sesión</a> </li>
             </ul>
         </nav>

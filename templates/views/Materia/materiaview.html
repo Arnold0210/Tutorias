@@ -1,0 +1,51 @@
+{% extends 'main.html' %}
+{% block title %}
+    Perfil
+{% endblock %}
+{% block navstudent %}
+    <li><a href="{% url 'usuario:user_update' user.pk %}">/a></li>
+{% endblock %}
+{% block banner_ul %}
+    MATERIAS
+{% endblock %}
+{% block bodyadmin %}
+    <form method="get" class="container">
+        <table>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Profesor</th>
+            </tr>
+            {% if object_list  %}
+                {% for materia in object_list %}
+                    <tr>
+                        <td>{{ materia.codigo }}</td>
+                        <td>{{ materia.nombre }}</td>
+                        <td>{{ materia.usuario.first}}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </form>
+{% endblock %}
+{% block bodyteacher %}
+    <form method="get" class="container">
+        <table>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Profesor</th>
+            </tr>
+            {% if object_list  %}
+                {% for materia in object_list %}
+                    <tr>
+                        <td>{{ materia.codigo }}</td>
+                        <td>{{ materia.nombre }}</td>
+                        <td>{{ materia.usuario.first}}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </form>
+{% endblock %}
+

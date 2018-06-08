@@ -1,0 +1,73 @@
+{% extends 'create/horario/HorarioIndexBase.html' %}
+{% block formadmin %}
+    <table>
+        <tr>
+            <th>ID Horario</th>
+            <th>Dia</th>
+            <th>Hora Inicio</th>
+            <th>Hora Final</th>
+            <th>Usuario</th>
+        </tr>
+    {% if object_list  %}
+        {% for horario in object_list %}
+            <tr>
+                <td>{{ horario.idHorario }}</td>
+                <td>{{ horario.dia }}</td>
+                <td>{{ horario.horaInicio }}</td>
+                <td>{{ horario.horaFinal }}</td>
+                <td>{{ horario.usuario.first }}</td>
+            </tr>
+        {% endfor %}
+    {% endif %}
+    </table>
+{% endblock %}
+{% block bodystudent %}
+    <form method="post">{% csrf_token %}
+        <table>
+            <tr>
+                <th>ID Horario</th>
+                <th>Dia</th>
+                <th>Hora Inicio</th>
+                <th>Hora Final</th>
+                <th>Usuario</th>
+            </tr>
+            {% if object_list  %}
+                {% for horario in object_list %}
+                    <tr>
+                        <td>{{ horario.idHorario }}</td>
+                        <td>{{ horario.dia }}</td>
+                        <td>{{ horario.horaInicio }}</td>
+                        <td>{{ horario.horaFinal }}</td>
+                        <td>{{ horario.usuario.first }}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </form>
+{% endblock %}
+
+
+{% block bodyteacher %}
+    <form method="post">{% csrf_token %}
+        <table>
+            <tr>
+                <th>ID Horario</th>
+                <th>Dia</th>
+                <th>Hora Inicio</th>
+                <th>Hora Final</th>
+                <th>Usuario</th>
+            </tr>
+            {% if object_list  %}
+                {% for horario in object_list %}
+                    <tr>
+                        <td>{{ horario.idHorario }}</td>
+                        <td>{{ horario.dia }}</td>
+                        <td>{{ horario.horaInicio }}</td>
+                        <td>{{ horario.horaFinal }}</td>
+                        <td>{{ horario.usuario.first }}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </form>
+{% endblock %}

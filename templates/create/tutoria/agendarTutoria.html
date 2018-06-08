@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'main.html' %}
+{% block bodystudent %}
 
-</body>
-</html>
+
+    <form method="post"class="container">
+        {% csrf_token %}
+        {{ form.profesor.label_tag }}
+        {{ form.profesor }}
+        {{ form.materia.label_tag }}
+        {{ form.materia }}
+        {{ form.horario.label_tag }}
+        {{ form.horario }}
+        {{ form.estudiante.label_tag }}
+        {{ form.estudiante }}
+        <button type="submit" class="boton button">Guardar</button>
+    </form>
+
+{% endblock  %}

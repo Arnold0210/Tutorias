@@ -18,17 +18,20 @@ from django.contrib import admin
 from django.views.generic.base import TemplateView
 from django.contrib.auth.views import login, password_reset,password_reset_done,password_reset_confirm,password_reset_complete,logout
 from django.contrib.auth.decorators import login_required
+from apps.User.views import signup
 admin.autodiscover()
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name='index.html'),name='home'),
+    url(r'^terminos_y_condiciones/$', TemplateView.as_view(template_name='terminosycondiciones.html'),name='terminos_y_condiciones'),
     url(r'^login/',login, {'template_name':'login.html'}, name='login'),
     url(r'^index/',login_required(TemplateView.as_view(template_name='main.html')), name='main'),
     url(r'^salir/', logout, name="salir", kwargs={'next_page': '/'}),
     url(r'^contactenos/', TemplateView.as_view(template_name='prueba.html'),name='contactenos'),
     url(r'^mas_informacion/', TemplateView.as_view(template_name='Masinfo.html'),name='masinfo'),
     url(r'^persona/',include('apps.Persona.urls',namespace='persona')),
-    url(r'^sign_up/', include('apps.User.urls', namespace='usuario')),
+    url(r'^sign_up/',signup, name='signup'),
+    url(r'^usuario/', include('apps.User.urls', namespace='usuario')),
     url(r'^materia/',include('apps.Materia.urls',namespace='materia')),
     url(r'^horario/',include('apps.Horario.urls',namespace='horario')),
     url(r'^tipousuario/',include('apps.TipoUsuario.urls',namespace='tipousuario')),

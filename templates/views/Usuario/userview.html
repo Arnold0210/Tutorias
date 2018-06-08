@@ -1,0 +1,87 @@
+{% extends 'main.html' %}
+{% block title %}
+    Perfil
+{% endblock %}
+{% block navstudent %}
+    <li><a href="{% url 'usuario:user_update' user.pk %}"></a></li>
+{% endblock %}
+{% block banner_ul %}
+    PERFIL DE USUARIO
+{% endblock %}
+{% block bodystudent %}
+    <form method="post" class="container">
+            <div style="margin: 50px 50px;">
+            <table class="egt" >
+                <tr>
+                    <th> NOMBRE: </th>
+                    <td >{{ user.first_name }} {{ user.last_name }}</td>
+                </tr>
+                <tr>
+                    <th> USUARIO: </th>
+                    <td>{{ user.username }}</td>
+                </tr>
+                <tr>
+                    <th> EMAIL:: </th>
+                    <td>{{ user.email}}</td>
+                </tr>
+                <tr>
+                    <th>TIPO DE USUARIO:</th>
+                    <td>{{ user.tipoUsuario }}</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+{% endblock %}
+{% block navadmin %}
+    <li><a href="{% url 'usuario:user_update' user.pk %}"></a></li>
+{% endblock %}
+
+{% block bodyadmin %}
+    <form method="post" class="container">
+        <div style="margin: 50px 50px;">
+            <table class="egt" >
+                <tr>
+                    <th> NOMBRE: </th>
+                    <td >{{ user.first_name }} {{ user.last_name }}</td>
+                </tr>
+                <tr>
+                    <th> USUARIO: </th>
+                    <td>{{ user.username }}</td>
+                </tr>
+                <tr>
+                    <th> EMAIL:: </th>
+                    <td>{{ user.email}}</td>
+                </tr>
+                <tr>
+                    <th>ROL:</th>
+                    <td>{{ user.tipoUsuario }}</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+{% endblock %}
+
+{% block bodyteacher %}
+    <form method="post" class="container">
+        <div style="margin: 50px 50px;">
+            <table class="egt" >
+                <tr>
+                    <th> NOMBRE: </th>
+                    <td >{{ user.first_name }} {{ user.last_name }}</td>
+                </tr>
+                <tr>
+                    <th> USUARIO: </th>
+                    <td>{{ user.username }}</td>
+                </tr>
+                <tr>
+                    <th> EMAIL:: </th>
+                    <td>{{ user.email}}</td>
+                </tr>
+                <tr>
+                    <th>ROL:</th>
+                    <td>{{ user.tipoUsuario }}</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+{% endblock %}

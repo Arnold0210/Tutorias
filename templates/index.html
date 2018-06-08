@@ -7,34 +7,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Sistema de Tutorias</title>
-    <link rel="icon" href="{% static 'images/favicon.ico'%}">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <script src="{% static 'js/jquery.min.js'%}"></script>
-    <script src="{% static 'js/skel.min.js' %}"></script>
-    <script src="{% static 'js/skel-layers.min.js' %}"></script>
-    <script src="{% static 'js/init.js' %}"></script>
-    <!--<noscript>-->
-        <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
-    <!--</noscript>-->
+    <link rel="icon" href="{% static 'images/favicon.ico'%}">
+    <!--[if lte IE 8]><script src="{% static 'js/html5shiv.js' %}"></script><![endif]-->
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script src="{% static "js/skel.min.js" %}"></script>
+    <script src="{% static "js/skel-layers.min.js" %}"></script>
+    <script src="{% static "js/init.js" %}"></script>
+    <link rel="stylesheet" href="{% static 'css/skel.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style-xlarge.css' %}" />
 </head>
 <body class="landing">
-{% csrf_token %}
+
 <!-- Header -->
 <header id="header">
-    <h1><a href="{% url 'home' %}"></a></h1>
+    <h1><a href="{% url 'signup' %}">Tutorias Ucatolica</a></h1>
     <nav id="nav">
         <ul>
             <li><a href="{% url 'home' %}">Inicio</a></li>
-            <li><a href="generic.html">Tutorias</a></li>
             <li><a href="{% url 'masinfo' %}">Mas Información</a></li>
             <li><a href="{% url 'contactenos' %}">Contactenos</a></li>
             <li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
-            <li><a href="{% url 'usuario:signup' %}" class="button small">Registrarse</a></li>
+            <li><a href="{% url 'signup' %}" class="button small">Registrarse</a></li>
         </ul>
     </nav>
 </header>
@@ -50,27 +47,27 @@
 <!-- One -->
 <section id="one" class="wrapper style1 special">
     <div class="container">
-
+        </header>
         <div class="row 150%">
             <div class="4u 12u$(medium)">
                 <section class="box">
-                    <a href="{% url 'masinfo' %}"><i class="icon big rounded color1 fa-cloud"></i>
-                    <h3>¿Quienes Somos?</h3></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                    <i class="icon big rounded color1 fa-cloud"></i>
+                    <h3><a href="{% url 'masinfo' %}">¿Quienes Somos?</a></h3>
+                    <p></p>
                 </section>
             </div>
             <div class="4u 12u$(medium)">
                 <section class="box">
-                    <a href="{% url 'usuario:signup' %}"><i class="icon big rounded color9 fa-desktop"></i>
-                    <h3>Registrarte</h3></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+                    <i class="icon big rounded color9 fa-desktop"></i>
+                    <h3><a href="{% url 'signup' %}">Registrarte</a></h3>
+                    <p></p>
                 </section>
             </div>
             <div class="4u$ 12u$(medium)">
                 <section class="box">
                     <i class="icon big rounded color6 fa-rocket"></i>
-                    <h3>Contacto</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+                    <h3><a href="{% url 'contactenos' %}"> Contacto </a></h3>
+                    <p></p>
                 </section>
             </div>
         </div>
@@ -92,9 +89,9 @@
         <div class="row">
             <div class="8u 12u$(medium)">
                 <ul class="copyright">
-                    <li>&copy;Todos los derechos reservados.</li>
-                    <li>Universidad Catolica</li>
-                    <li>Siguenos en:</li>
+                    <li>&copy;Todos los derechos reservados</li>
+                    <li><a>Universidad Catolica</a></li>
+                    <li><a>Siguenos en: </a></li>
                 </ul>
             </div>
             <div class="4u$ 12u$(medium)">

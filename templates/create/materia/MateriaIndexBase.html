@@ -1,31 +1,31 @@
 {% extends 'main.html' %}
 {% block title %}
-    Horario
+    Materia
 {% endblock %}
-
 {% block navadmin %}
-    <li><a href="{% url 'horario:createhorario' %}">Crear Horario</a></li>
+    <li><a href="{% url 'materia:create_materia' %}">Crear Materia</a></li>
     <li><a href="#"></a></li>
-    <li><a href="{% url 'horario:horariolist' %}">Consultar Horario</a></li>
-    <li><a href="#"></a></li>
+    <li><a href="{% url 'materia:listmateria' %}">Consultar Materia</a></li>
 {% endblock %}
 {% block navstudent %}
     <li><a href="#">Agendar Tutoria</a></li>
     <li><a href="#">Usuario</a></li>
 {% endblock %}
 {% block navteacher %}
-    <li><a href="{% url 'horario:horariolist' %}">Horarios</a></li>
-    <li><a href="{% url 'materia:listmateria' %}">Materia</a></li>
+    <li><a href="{% url 'horario:horarioindex' %}">Tutorias</a></li>
+    <li><a href="#">Horario</a></li>
+    <li><a href="#">Materia</a></li>
+    <li><a href="#">Usuario</a></li>
 {% endblock %}
 {% block banner_ul %}
-    Horario
+    Materia
 {% endblock %}
 {% block bodyadmin %}
-    Administrador
+    Administrador Materia
     <form method="post" class="container">
     {% csrf_token %}
     {% block formadmin %}
-
+       <!-- Este es un form de index--!>
     {% endblock %}
     </form>
 

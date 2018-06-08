@@ -24,14 +24,14 @@
     {% csrf_token %}
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="{% url 'home' %}"></a></h1>
+				<h1><a href="{% url 'home' %}">Tutorias Ucatolica</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="{% url 'home' %}">Inicio</a></li>
 						<li><a href="generic.html">Tutorias</a></li>
 						<li><a href="{% url 'masinfo' %}">Mas Información</a></li>
 						<li><a href="{% url 'login' %}" class="button small">Ingresar</a></li>
-                        <li><a href="{% url 'usuario:signup' %}" class="button small">Registrarse</a></li>
+                        <li><a href="{% url 'signup' %}" class="button small">Registrarse</a></li>
 					</ul>
 				</nav>
 			</header>

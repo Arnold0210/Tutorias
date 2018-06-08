@@ -1,8 +1,8 @@
-from django.views.generic import CreateView
+from django.views.generic import CreateView, ListView, UpdateView
 
 #cinfirmation
 
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth import login
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.encoding import force_bytes, force_text
@@ -23,6 +23,15 @@ class UserView(CreateView):
     form_class = UserForm
     template_name = 'signup/signup.html'
     success_url = reverse_lazy('login')
+class UserViewList(ListView):
+    model = User
+    template_name = 'views/Usuario/userview.html'
+class UserViewUpdate(UpdateView):
+    model = User
+    form_class = UserForm
+    template_name = 'signup/signup.html'
+    success_url = reverse_lazy('usuario:user_view')
+
 def onlyuser(self,email):
     C=''
     for c in email:
@@ -55,6 +64,7 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'signup/signup.html', {'form': form})
+
 def activate(request, uidb64, token):
     try:
         uid = force_text(urlsafe_base64_decode(uidb64))
@@ -72,3 +82,13 @@ def activate(request, uidb64, token):
     else:
         return render(request,'user_profile/confirm_expired.html')
         #return HttpResponse('El link de activación es inválido o ha expirado')
+def userupdate(request,pk):
+    user = User.objects.get(pk=pk)
+    if request.method == 'GET':
+        form = UserForm(instance=user)
+    else:
+        form = UserForm(request.POST,instance=user)
+        if form.is_valid():
+            form.save()
+        return redirect('usuario:user_view')
+    return render(request,'signup/signup.html',{'form':form})

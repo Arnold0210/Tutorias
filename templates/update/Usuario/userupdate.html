@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% block title %}
+    Editar Perfil
+{% endblock %}
+{% block banner_ul %}
+    ACTUALIZAR PERFIL DE USUARIO
+{% endblock %}
+{% block bodystudent %}
+    <form method="get" class="container">
+        hola putos
+        {% csrf_token %}
+        {{ form.first_name }}
+        {{ form.last_name }}
+    </form>
+{% endblock %}

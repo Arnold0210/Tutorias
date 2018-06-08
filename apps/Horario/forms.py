@@ -2,6 +2,7 @@ from django import forms
 from apps.User.models import User
 from apps.Horario.models import Horario,Tutoria
 from apps.Materia.models import Materia
+from django.http import request
 class  CreateHorarioForm(forms.ModelForm):
     class Meta:
         model = Horario
@@ -29,20 +30,43 @@ class  CreateHorarioForm(forms.ModelForm):
     def __init__(self,*args,**kwargs):
         super(CreateHorarioForm, self).__init__(*args,**kwargs)
         self.fields['usuario'].queryset = User.objects.filter(tipoUsuario='Profesor')
-class CreateTuroria(forms.ModelForm):
-    profesor = forms.ModelChoiceField(
-        label = u'Profesor',
-        queryset = User.objects.filter(tipoUsuario='Profesor')
-    )
-    horario = forms.ModelChoiceField(
-        label = u'Horario',
-        queryset = Horario.objects.all()
-    )
-    materia = forms.ModelChoiceField(
-        label = u'Materia',
-        queryset = Materia.objects.all()
-    )
+class CreateTuroriaForm(forms.ModelForm):
+    profesor = forms.Select()
+    materia = forms.Select()
+    horario = forms.Select()
     def __init__(self,*args,**kwargs):
-        super(CreateTuroria, self).__init__(*args,**kwargs)
-        self.fields['profesor'].queryset = User.objects.filter(tipoUsuario='Profesor')
-        self.fields['materia'].queryset = Materia.objects.all()
+        super(CreateTuroriaForm, self).__init__(*args,**kwargs)
+        self.fields['materia'].queryset = Materia.objects.none()
+        self.fields['horario'].queryset = Horario.objects.none()
+
+
+class CreateTutoriasForm(forms.ModelForm):
+    class Meta:
+        model = Tutoria
+        fields = [
+            'materia',
+            'profesor',
+            'horario',
+            'estudiante',
+        ]
+        labels = {
+            'profesor':'Escoja un profesor:',
+            'materia':'Escoja una materia',
+            'horario':'Escoja un horario',
+            'Estudiante':'Estudiante'
+        }
+        widgets ={
+            'profesor':forms.Select(),#ModelChoiceField(queryset=User.objects.filter(tipoUsuario='Profesor').all()),
+            'materia':forms.Select(),#ModelChoiceField(queryset=Materia.objects.all()),
+            'horario':forms.Select(),#ModelChoiceField(queryset=Horario.objects.all()),
+            'estudiante':forms.Select(),
+        }
+    def __init__(self,*args,**kwargs):
+        super().__init__(*args,**kwargs)
+        self.fields['profesor'].queryset =  User.objects.filter(tipoUsuario='Profesor')
+        self.fields['estudiante'].queryset = User.objects.filter(tipoUsuario='Estudiante')
+        #self.fields['materia'].queryset = Materia.objects.none()
+        #self.fields['horario'].queryset = Horario.objects.none()
+''' b= Materia.objects.all()
+    Solicitud= Materia_seleccionada
+    b= Materia.objects.filter(materia="Solicitud")'''
