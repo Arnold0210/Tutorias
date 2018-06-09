@@ -37,7 +37,8 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 6. virtualenvwrapper-win
 7. xampp(Uso de phpmyadmin), también se puede utilizar mysqlworkbench
 8. wheel 0.31.1
-9. PyCharm PE(JetBrains) **Se utiliza este IDE para desarrollar el proyecto**
+9. PyCharm PE **(JetBrains)** ***Se utiliza este IDE para desarrollar el proyecto***  
+
 ---
 
 ---
@@ -69,7 +70,8 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * from django.contrib.auth.views import login, password_reset,password_reset_done,password_reset_confirm,password_reset_complete,logout
 * from django.contrib.auth.decorators import login_required
 * from apps.User.views import signup
-* from django.conf.urls import url,include,patterns
+* from django.conf.urls import url,include,patterns  
+
 ---
 
 ---
@@ -107,7 +109,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <https://www.youtube.com/watch?v=Gd-VwcCTl4Y&list=PLsRdPvQ2xMkH8c2BOnQ_O1KZ9lyyL_eGB&index=22>
 * <http://librosweb.es/libro/django_1_0/capitulo_4/herencia_de_plantillas.html>
 * <http://librosweb.es/libro/django_1_0/capitulo_3/como_procesa_una_peticion_django.html>
-* <https://docs.djangoproject.com/es/2.0/intro/tutorial03/>
+* <https://docs.djangoproject.com/es/2.0/intro/tutorial03/>  
 ---
 
 ---
@@ -119,7 +121,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <https://github.com/PyMySQL/mysqlclient-python>
 * <https://www.djangoproject.com/>
 * <https://www.apachefriends.org/es/download.html> (XAMPP)
-* <https://www.jetbrains.com/pycharm/download/>
+* <https://www.jetbrains.com/pycharm/download/>  
 ---
 
 ---
