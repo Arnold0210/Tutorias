@@ -1,6 +1,6 @@
 # Proyecto Sistemas de Información
 
-## Desarrollador:
+## Desarrolladores:
 ### Arnold Julian Herrera Quiñones - 625569 Estudiante Universidad Católica de Colombia (Backend)
 ### Hector Guillermo Rodriguez Gomez - 625478 Estudiante Ingeniería de Sistemas (Frontend)
 ---
@@ -8,7 +8,7 @@
 ---
 Presentado a: Jaime Fernando Perez
 ---
-Este proyecto se basa en una aplicación web donde se permite el registro de usuarios de tipo: *Administrador*,*Estudiante*,*Profesor*, manejando el framework Django para la utilización de python como lenguaje para hacer el backend, se trabaja con un MTC(Model Template Controller), así mismo se utiliza recursos locales para aplicar estilos a la página web como también el uso de bootstrap 3 y 4.
+Este proyecto se basa en una aplicación web donde se permite el registro de usuarios de tipo: *Administrador*,*Estudiante*,*Profesor*, manejando el framework Django para la utilización de python como lenguaje para hacer el backend, se trabaja con un MTC(Model Template Controller), así mismo se utiliza recursos locales para aplicar estilos a la página web como también el uso de bootstrap 3 y 4.  
 Se utilizo un entorno virtual a traves de virtualenvwrapper y se utiliza una base de datos en mysql.
 Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Django a traves de la clase AbstractUser. Asi mismo tiene la funcionalidad de activar el usuario mediante un link de verificación y la recuperación de contraseña por medio de un correo de verificación y tiene las vistas protegidas para evitar el acceso a las urls de las sesiones sin tener una sesión activa.
 
