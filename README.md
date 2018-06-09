@@ -21,7 +21,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 4. Hector Guillermo Rodriguez Gomez (Support) - 625478
 5 Juan Felipe Sanchez Rincón (Support) - 625578
 6 Karen Gisela Rodríguez Romero (Líder de proyecto) 625629
----
+
 ---
 ## Recursos utilizados:
 ---
@@ -33,9 +33,10 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 6. virtualenvwrapper-win
 7. xampp(Uso de phpmyadmin), también se puede utilizar mysqlworkbench
 8. wheel 0.31.1
+9. PyCharm PE(JetBrains) **Se utiliza este IDE para desarrollar el proyecto**
 ---
 ---
-###Librerias Utilizadas
+### Librerias Utilizadas
 * django.db import models
 * from django import forms
 * from django.views.generic.base import TemplateView
@@ -107,13 +108,14 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 ## Enlaces de descarga de los recursos
 * <https://github.com/askdjango/meltingdjango/blob/master/packages/mysqlclient-1.3.7-cp34-none-win_amd64.whl> (Windows *64)
 * <https://github.com/askdjango/meltingdjango/blob/master/packages/mysqlclient-1.3.7-cp34-none-win32.whl> (Windows x32)
-* https://github.com/pypa/wheel
-* https://github.com/pypa/setuptools
-* https://github.com/PyMySQL/mysqlclient-python
-* https://www.djangoproject.com/
-* https://www.apachefriends.org/es/download.html (XAMPP)
+* <https://github.com/pypa/wheel>
+* <https://github.com/pypa/setuptools>
+* <https://github.com/PyMySQL/mysqlclient-python>
+* <https://www.djangoproject.com/>
+* <https://www.apachefriends.org/es/download.html> (XAMPP)
+* <https://www.jetbrains.com/pycharm/download/>
 ---
 ---
 ### **Nota**
-** Si unicamente tiene xampp en su dispositivo instalado, es recomendable que cambie el puerto de la base de datos en el archivo settings.py por el 3306, o por el puerto de su preferencia.**
+** Si unicamente tiene xampp en su dispositivo instalado, es recomendable que cambie el puerto de la base de datos en el archivo settings.py por el 3306, o por el puerto de su preferencia. **
 ## Bogotá D.C Junio 2018 
