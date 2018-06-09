@@ -10,20 +10,24 @@ Presentado a: Jaime Fernando Perez
 ---
 Este proyecto se basa en una aplicación web donde se permite el registro de usuarios de tipo: *Administrador*,*Estudiante*,*Profesor*, manejando el framework Django para la utilización de python como lenguaje para hacer el backend, se trabaja con un MTC(Model Template Controller), así mismo se utiliza recursos locales para aplicar estilos a la página web como también el uso de bootstrap 3 y 4.
 Se utilizo un entorno virtual a traves de virtualenvwrapper y se utiliza una base de datos en mysql.
-
 Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Django a traves de la clase AbstractUser. Asi mismo tiene la funcionalidad de activar el usuario mediante un link de verificación y la recuperación de contraseña por medio de un correo de verificación y tiene las vistas protegidas para evitar el acceso a las urls de las sesiones sin tener una sesión activa.
+
 ---
+
 ---
+
 ## Integrantes:
 1. Arnold Julian Herrera Quiñones (Desarrollador) - 625569
 2. Cristhian Camilo Arce García (Tester) - 625577
 3. Deivid Froilan Bernal Gutierrez (Arquitecto) - 625599
 4. Hector Guillermo Rodriguez Gomez (Support) - 625478
-5 Juan Felipe Sanchez Rincón (Support) - 625578
-6 Karen Gisela Rodríguez Romero (Líder de proyecto) 625629
+5. Juan Felipe Sanchez Rincón (Support) - 625578
+6. Karen Gisela Rodríguez Romero (Líder de proyecto) 625629
 
 ---
+
 ## Recursos utilizados:
+
 ---
 1. mysqlclient==1.3.7
 2. Django==1.9.6
@@ -35,6 +39,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 8. wheel 0.31.1
 9. PyCharm PE(JetBrains) **Se utiliza este IDE para desarrollar el proyecto**
 ---
+
 ---
 ### Librerias Utilizadas
 * django.db import models
@@ -65,8 +70,8 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * from django.contrib.auth.decorators import login_required
 * from apps.User.views import signup
 * from django.conf.urls import url,include,patterns
-
 ---
+
 ---
 ## Documentación Django:
 ---
@@ -104,6 +109,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <http://librosweb.es/libro/django_1_0/capitulo_3/como_procesa_una_peticion_django.html>
 * <https://docs.djangoproject.com/es/2.0/intro/tutorial03/>
 ---
+
 ---
 ## Enlaces de descarga de los recursos
 * <https://github.com/askdjango/meltingdjango/blob/master/packages/mysqlclient-1.3.7-cp34-none-win_amd64.whl> (Windows *64)
@@ -115,7 +121,8 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <https://www.apachefriends.org/es/download.html> (XAMPP)
 * <https://www.jetbrains.com/pycharm/download/>
 ---
+
 ---
 ### **Nota**
-** Si unicamente tiene xampp en su dispositivo instalado, es recomendable que cambie el puerto de la base de datos en el archivo settings.py por el 3306, o por el puerto de su preferencia. **
+**Si unicamente tiene xampp en su dispositivo instalado, es recomendable que cambie el puerto de la base de datos en el archivo settings.py por el 3306, o por el puerto de su preferencia.**
 ## Bogotá D.C Junio 2018 

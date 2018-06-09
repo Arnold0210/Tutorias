@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6435f12-abf6-45a1-8ee9-051b5b1a01a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/terminosycondiciones.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/terminosycondiciones.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,49 +56,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/User/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tokens.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/User/tokens.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/User/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-              <folding>
-                <element signature="e#1#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/User/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="e#1142#1251#0" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -226,17 +182,6 @@
               <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tutorias" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tutorias" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528173612166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V1.5 pycharm">
+      <created>1528521622937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528521622937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -346,58 +298,57 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.464986" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.35478547" />
       <window_info anchor="bottom" id="Python Console" order="15" weight="0.37353435" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.24422443" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.53501403" weight="0.22110553" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.2322239" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.23600605" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.31164902" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3290469" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" sideWeight="0.50165015" side_tool="true" weight="0.22541603" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.6354009" weight="0.32838285" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32838285" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32838285" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.6354009" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.24422443" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32838285" />
+      <window_info id="Favorites" order="0" sideWeight="0.50165015" side_tool="true" weight="0.22541603" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.24422443" />
       <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.6354009" weight="0.32838285" />
-      <window_info anchor="bottom" id="Python Console" order="15" weight="0.37353435" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.53501403" weight="0.22110553" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.464986" side_tool="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3290469" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Database" order="4" weight="0.3124019" />
-      <window_info id="Favorites" order="0" sideWeight="0.50165015" side_tool="true" weight="0.22541603" />
+      <window_info anchor="bottom" id="Python Console" order="15" weight="0.37353435" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +385,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se añade correo de verificación, se crean templates basicos para correos de verificacion se añaden templates y funciones para recuperar contraseña, se cambian algunos mensajes de ingles a español en apps/User/views.py &#10;se modifica authentications_backends en Tutorias7settings.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se añade correo de verificación, se crean templates basicos para correos de verificacion se añaden templates y funciones para recuperar contraseña, se cambian algunos mensajes de ingles a español en apps/User/views.py &#10;se modifica authentications_backends en Tutorias7settings.py" />
+    <MESSAGE value="V1.5 pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.5 pycharm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,12 +401,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/Persona/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/Persona/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/Persona/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -657,21 +603,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,13 +616,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Horario/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,30 +626,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Materia/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Materia/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/Materia/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,20 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/User/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/tokens.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -760,21 +663,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/User/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/User/tokens.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#1142#1251#0" />
-          </folding>
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/User/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorias/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
