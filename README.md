@@ -110,6 +110,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <http://librosweb.es/libro/django_1_0/capitulo_4/herencia_de_plantillas.html>
 * <http://librosweb.es/libro/django_1_0/capitulo_3/como_procesa_una_peticion_django.html>
 * <https://docs.djangoproject.com/es/2.0/intro/tutorial03/>  
+
 ---
 
 ---
@@ -122,6 +123,7 @@ Este proyecto maneja un modelo heredado del sistema de usuarios ofrecido por Dja
 * <https://www.djangoproject.com/>
 * <https://www.apachefriends.org/es/download.html> (XAMPP)
 * <https://www.jetbrains.com/pycharm/download/>  
+
 ---
 
 ---
