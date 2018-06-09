@@ -38,12 +38,19 @@
         <div>
             {{ form.tipoUsuario }}
         </div>
+        <div class="container">
+            <a href="{% url 'terminos_y_condiciones' %}">Términos y Condiciones</a>
+        </div>
         <div>
-            <button type="submit" class="boton" id="signup" onclick="function f() {
-                alert('Al hacer clic en este boton acepta nuestros terminos y condiciones')
-            }">Registrarme</button>
+            <button type="submit" class="boton" onclick="terminosycondiciones()" >Registrarme</button>
         </div>
             {% endblock %}
     </form>
+    <script type="javascript">
+        function terminosycondiciones() {
+        alert('Al dar click en registrarte aceptas nuestros terminos y condiciones.')
+
+        }
+    </script>
     </body>
 </html>
