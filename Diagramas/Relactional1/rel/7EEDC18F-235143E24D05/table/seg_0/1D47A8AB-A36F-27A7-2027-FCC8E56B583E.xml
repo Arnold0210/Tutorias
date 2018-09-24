@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D47A8AB-A36F-27A7-2027-FCC8E56B583E" name="Programa">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>2CEBD022-17F9-7096-8FCE-FE7BDAE54530</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<abbreviation>Prog</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPrograma" id="9AA16238-8908-0C98-F5FC-428DA7C9DEFB">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>55CC081D-0CF0-8365-1342-144A261A332A</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BA946167-FADB-BEC8-C5BE-5FBFD21DC902">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>436A07BC-5B65-7F4E-F986-4151752B24B1</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3198E4E8-649B-7539-6A2E-F107F5CAD8E3" name="Programa_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>0281FA23-8AC3-E5DC-627D-B7D36E728C58</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AA16238-8908-0C98-F5FC-428DA7C9DEFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

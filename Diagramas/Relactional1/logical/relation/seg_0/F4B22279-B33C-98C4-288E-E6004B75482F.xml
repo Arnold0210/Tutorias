@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reporte_Profesor_FK" directorySegmentName="seg_0" id="F4B22279-B33C-98C4-288E-E6004B75482F">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>10A6440D-EA1D-F929-8446-0CBE288735B9</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<sourcePk>1FE504C2-0396-F844-1333-B39F3A5AE54B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8BBF2C65-A848-B7D1-A09C-6CFBE51A7D34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1FA321A5-C1CC-2958-DC36-BE2FA7E7740B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

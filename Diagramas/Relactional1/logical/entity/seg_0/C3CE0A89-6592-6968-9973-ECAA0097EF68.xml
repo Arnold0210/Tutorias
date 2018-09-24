@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3CE0A89-6592-6968-9973-ECAA0097EF68" name="Persona">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>A8F89262-141B-3618-94F3-9428B3C32D6A</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pers</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="485ECFF8-1558-6A4A-CBD2-5810B0126928">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>997E4183-CD39-222C-6FB6-F1A7F205C1F4</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="272B3734-284D-36A0-A10B-26A81EE18E5A">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>D2D50886-1452-C0AB-5927-43BFE9B41DC4</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="1753009E-9457-0783-B2CF-F695DAE5B40A">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>CD8C335D-EAB4-0ACF-3BB8-A0BD2CDAB4FF</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="0490F543-B5B3-587E-FF5B-4EED1D1926D2">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>335211C5-F5B1-DA05-2F66-86E7772BB389</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programa" id="D09E4429-31B3-F3D8-6120-CD31648C563A">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>315A6124-B956-5410-8C06-A11240C74F74</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario user" id="96C98683-5AF6-C242-3A3B-5EBEF55E1C7E">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<generatorID>39C50E95-46CA-6BAC-8AD8-F8548E8A0684</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>1693E930-FEAC-0313-EA6C-1DEB934C0E0F</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<referedAttribute>50439429-8520-4A38-10BE-5B503F95A9D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPersona" id="42674AC0-E782-5DA6-5DA7-345D204F6DBC">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>74597906-7AF4-61FF-F08D-070C63A3CDEB</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FE504C2-0396-F844-1333-B39F3A5AE54B" name="Persona PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B2BBAE4E-C726-DEAF-FD8C-065374C41C37</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>485ECFF8-1558-6A4A-CBD2-5810B0126928</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

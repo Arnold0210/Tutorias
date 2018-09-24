@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6471B318-EEF4-3484-101D-802A1876B84A" name="Est_Prog">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Programa_idPrograma" id="54DA9EED-8779-8EA1-84C7-D1CFECCEAE5C">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3028B1BD-DAF3-72F8-5F04-38443ACDB6E1" referredColumn="9AA16238-8908-0C98-F5FC-428DA7C9DEFB"/>
+</associations>
+</Column>
+<Column name="Estudiante_pers_codigo" id="AE6556CD-F30A-5610-C51D-BC98878D1C60">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C50D465-45A5-A143-7374-C58C98FD2F7E" referredColumn="CF4D1F6A-3121-159B-9030-526BB4BA51B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26F308C1-C9B2-583C-2D87-9E79798BF378" name="Est_Prog_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DA9EED-8779-8EA1-84C7-D1CFECCEAE5C"/>
+<colUsage columnID="AE6556CD-F30A-5610-C51D-BC98878D1C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F30473A3-4209-0935-5173-5761CECD6895" name="Programa_Est_Prog_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>F39CD231-DFA3-A56E-9344-81243C80B088</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DA9EED-8779-8EA1-84C7-D1CFECCEAE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E4F1E1D-1ECF-147F-063A-9024B3105551" name="Estudiante_Est_ProgFK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>F39CD231-DFA3-A56E-9344-81243C80B088</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE6556CD-F30A-5610-C51D-BC98878D1C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

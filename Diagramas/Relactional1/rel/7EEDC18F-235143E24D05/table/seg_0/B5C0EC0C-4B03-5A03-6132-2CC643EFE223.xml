@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5C0EC0C-4B03-5A03-6132-2CC643EFE223" name="Usuario">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>BFAE807E-9BD9-11F2-39BD-F0D05063DFB1</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<abbreviation>usr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user" id="FCEF4DAB-A667-DE35-29BE-E086348731E1">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>50439429-8520-4A38-10BE-5B503F95A9D9</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F19703E3-9C63-C2ED-70A7-69AA8EAD5AF8">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>7BF0F678-132F-15F5-5514-9AA00AA0CD17</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_pers_codigo" id="CDE3146D-0F7E-379A-56D2-DFEFD1FEE38E">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>3D4EDBD8-6CDA-57BC-4C45-C7096E84F3E6</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11CE62AE-F9EE-8F4F-5F79-6B12410763FC" referredColumn="930CE55A-D429-C19F-1BE6-9D3772C65A77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="890404C5-C015-9921-AE85-2DD7DE2FFAB8" name="Usuario_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>41C617D5-130F-78DA-A7E4-1CD226BF9D03</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCEF4DAB-A667-DE35-29BE-E086348731E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7547FE77-54CC-E08D-0537-7E166FF5BB02" name="Usuario__IDX">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>39C50E95-46CA-6BAC-8AD8-F8548E8A0684</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CDE3146D-0F7E-379A-56D2-DFEFD1FEE38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B603049A-2356-A1BF-4D9B-82570093E425" name="Usuario_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:56:24 UTC</createdTime>
+<generatorID>39C50E95-46CA-6BAC-8AD8-F8548E8A0684</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE3146D-0F7E-379A-56D2-DFEFD1FEE38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

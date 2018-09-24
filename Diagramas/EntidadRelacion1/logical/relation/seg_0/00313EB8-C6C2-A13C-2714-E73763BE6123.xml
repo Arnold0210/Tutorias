@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prof_Mat" directorySegmentName="seg_0" id="00313EB8-C6C2-A13C-2714-E73763BE6123">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 05:00:13 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B46F866C-8A31-7530-E792-0474E5AB10FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D9C8149-B89B-B468-9612-E4131A8406E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

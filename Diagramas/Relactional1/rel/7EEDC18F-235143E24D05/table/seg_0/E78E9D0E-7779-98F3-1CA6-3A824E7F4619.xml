@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E78E9D0E-7779-98F3-1CA6-3A824E7F4619" name="Profesor">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>8BBF2C65-A848-B7D1-A09C-6CFBE51A7D34</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>prof</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_codigo" id="B341067C-EC37-DA63-4841-948D8EF0A558">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>485ECFF8-1558-6A4A-CBD2-5810B0126928</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E456A29-CFEC-528F-BB37-9B158979993E" referredColumn="930CE55A-D429-C19F-1BE6-9D3772C65A77"/>
+</associations>
+</Column>
+<Column name="prof_profesion" id="F495CE7F-35C9-2990-4F0F-D414E426EC38">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>85104A69-68E2-CF6F-B932-C0DD85C001B2</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prof_especialidad" id="9288B1F1-59F1-EC9A-6185-11AA6444C1FF">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>4A8681E4-B07C-5C7B-D93D-9C8ECB66B957</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="761F0A3F-73C3-60E0-5D71-596C3FC1959E" name="Profesor_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>1FE504C2-0396-F844-1333-B39F3A5AE54B</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B341067C-EC37-DA63-4841-948D8EF0A558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9034C86-3B4A-AA15-6834-38FB04213501" name="Profesor_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>80A59EE1-F2C5-F0F6-5B61-364036CC6B58</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B341067C-EC37-DA63-4841-948D8EF0A558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

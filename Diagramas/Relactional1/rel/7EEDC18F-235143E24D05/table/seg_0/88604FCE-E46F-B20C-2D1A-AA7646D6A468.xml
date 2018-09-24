@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88604FCE-E46F-B20C-2D1A-AA7646D6A468" name="Reporte">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:52:37 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMateria" id="1EDEBE20-49EB-8B67-D931-2C7A80E2C948">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:31 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7141393-01F3-AF32-8AE9-36FC95AFD8C6" referredColumn="1F0B3243-4AB8-CBA2-BEC3-F48F47F95FFC"/>
+</associations>
+</Column>
+<Column name="idProfesor" id="E5710057-732B-A84C-4C33-258FB42C6532">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:31 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10A6440D-EA1D-F929-8446-0CBE288735B9" referredColumn="B341067C-EC37-DA63-4841-948D8EF0A558"/>
+</associations>
+</Column>
+<Column name="idEstudiante" id="974FD9AF-2A7D-F208-3681-95A598BF5AE1">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:31 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63445E58-4324-000E-034E-108D5A586D95" referredColumn="CF4D1F6A-3121-159B-9030-526BB4BA51B9"/>
+</associations>
+</Column>
+<Column name="idHorario" id="FF74FFD4-7546-297E-439B-174556652EBD">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:31 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DD419E6-7CE1-4CA4-7703-6ABAA7F6D1B2" referredColumn="3A534A3E-3E1A-20E5-B7BF-E5DEFBEC0D95"/>
+</associations>
+</Column>
+<Column name="idReporte" id="D91BC033-3A72-83B6-3740-CE5DF8A01283">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:18:53 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="693405F8-571F-B1EE-610D-3265585F7C2D" name="Reporte_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:19:01 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91BC033-3A72-83B6-3740-CE5DF8A01283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="210B9631-B9BA-B964-A0F4-18FFE4490251" name="Reporte_Materia_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:31 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDEBE20-49EB-8B67-D931-2C7A80E2C948"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3ADF240-5FE9-D473-C791-FB63B15AAB68" name="Reporte_Profesor_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:55 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5710057-732B-A84C-4C33-258FB42C6532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B0A2D9F-3FC7-B6C0-3910-6BEAAF5C9A5C" name="Reporte_Estudiante_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:58:55 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="974FD9AF-2A7D-F208-3681-95A598BF5AE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B58C6E6-A477-FF6C-44CD-9C7F677AE212" name="Reporte_Horario_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 15:59:07 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF74FFD4-7546-297E-439B-174556652EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

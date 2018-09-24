@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8F89262-141B-3618-94F3-9428B3C32D6A" name="Persona">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:57:44 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pers</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="997E4183-CD39-222C-6FB6-F1A7F205C1F4">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:57:59 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="D2D50886-1452-C0AB-5927-43BFE9B41DC4">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:58:27 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="CD8C335D-EAB4-0ACF-3BB8-A0BD2CDAB4FF">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:59:15 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="335211C5-F5B1-DA05-2F66-86E7772BB389">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:59:35 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programa" id="315A6124-B956-5410-8C06-A11240C74F74">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:59:53 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user" id="1693E930-FEAC-0313-EA6C-1DEB934C0E0F">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:53:27 UTC</createdTime>
+<generatorID>1146EF6D-C0B4-AE38-763C-4042CD5E0922</generatorID>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<referedAttribute>D3319B52-1F40-C364-C1FA-B4F461CF891A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPersona" id="74597906-7AF4-61FF-F08D-070C63A3CDEB">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 05:48:25 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2BBAE4E-C726-DEAF-FD8C-065374C41C37" name="Persona PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-04-20 17:58:26 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>997E4183-CD39-222C-6FB6-F1A7F205C1F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reporte_Materia_FK" directorySegmentName="seg_0" id="0ED47B37-8F06-F0C3-83BE-98F39846D6CE">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>B7141393-01F3-AF32-8AE9-36FC95AFD8C6</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<sourcePk>20B66BCB-3915-725E-8719-44ACF75B2A60</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>826D29F9-A295-C132-C4DF-879ADF1C9144</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1FA321A5-C1CC-2958-DC36-BE2FA7E7740B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

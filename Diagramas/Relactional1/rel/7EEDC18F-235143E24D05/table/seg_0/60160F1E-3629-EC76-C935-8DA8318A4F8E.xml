@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60160F1E-3629-EC76-C935-8DA8318A4F8E" name="Mat_Prog">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Materia_codigo" id="750EB945-F2B3-ABCE-98EC-BEB4003ACFF2">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4CE04CE-60ED-B9A0-38FC-60E74FF611C4" referredColumn="1F0B3243-4AB8-CBA2-BEC3-F48F47F95FFC"/>
+</associations>
+</Column>
+<Column name="Programa_idPrograma" id="218D4E5C-B5B0-7649-34F9-D8FB38493911">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C33241DF-5F4E-B730-2055-15DA760370F3" referredColumn="9AA16238-8908-0C98-F5FC-428DA7C9DEFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FFD41EC-003B-BCC7-E726-9C3B2C31CBE1" name="Mat_Prog_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="750EB945-F2B3-ABCE-98EC-BEB4003ACFF2"/>
+<colUsage columnID="218D4E5C-B5B0-7649-34F9-D8FB38493911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B641BAE-5A94-91ED-D12F-A42EAA7A824E" name="Materia_Mat_Prog_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>40F49299-4B52-3C61-2411-7E44250F23F6</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="750EB945-F2B3-ABCE-98EC-BEB4003ACFF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC2007DB-3AB0-8A5B-9C76-E787539211FB" name="Programa_Mat_Prog_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>40F49299-4B52-3C61-2411-7E44250F23F6</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="218D4E5C-B5B0-7649-34F9-D8FB38493911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

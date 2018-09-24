@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reporte_Horario_FK" directorySegmentName="seg_0" id="EA9CBB20-4EEA-F328-BBF8-4399C925EE5C">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>0DD419E6-7CE1-4CA4-7703-6ABAA7F6D1B2</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<sourcePk>2DDFEDDC-5082-D415-AD16-68F3B7C30922</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE00DDD2-9605-9067-5D53-4A124A4E88E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1FA321A5-C1CC-2958-DC36-BE2FA7E7740B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

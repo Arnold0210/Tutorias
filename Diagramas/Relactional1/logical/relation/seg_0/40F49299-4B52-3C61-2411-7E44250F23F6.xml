@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mat_Prog" directorySegmentName="seg_0" id="40F49299-4B52-3C61-2411-7E44250F23F6">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>EF2DFE70-43D9-2CCB-6AE9-49D3325FC67A</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>826D29F9-A295-C132-C4DF-879ADF1C9144</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CEBD022-17F9-7096-8FCE-FE7BDAE54530</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

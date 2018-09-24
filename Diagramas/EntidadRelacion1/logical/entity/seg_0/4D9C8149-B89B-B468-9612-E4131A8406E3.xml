@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D9C8149-B89B-B468-9612-E4131A8406E3" name="Materia">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:54:48 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Mat</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="F56A5A5E-477F-402C-48F3-F950950D1DD0">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:55:04 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6B480990-FF45-880A-3120-43BA60A86035">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:55:31 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7764D9B-8E85-182A-3842-53B856061E81" name="Materia PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:55:30 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F56A5A5E-477F-402C-48F3-F950950D1DD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

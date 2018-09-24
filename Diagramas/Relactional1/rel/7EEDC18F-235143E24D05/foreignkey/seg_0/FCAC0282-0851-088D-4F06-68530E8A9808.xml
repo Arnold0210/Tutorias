@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCAC0282-0851-088D-4F06-68530E8A9808" containerWithKeyObject="E6738B2F-92C2-48E0-F09B-B50A52EABFD0" localFKIndex="E3DEFF96-8DE6-3EFC-CCE1-DEF9E6A5B625" name="Estudiante_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>940EBE29-CA54-548D-BAE9-4304B66CABD1</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<arc>92EA5DF7-5A49-9AA8-3722-9FFF36FA6895</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9597066-A4B0-A8E1-0D36-24B2C35BC6FE</referredTableID>
+<keyObject>7F629479-62C6-3071-D5FE-5ECEEB1BD64D</keyObject>
+<referredKeyID>7F629479-62C6-3071-D5FE-5ECEEB1BD64D</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>96E2705F-05A8-F036-4240-B77D9C6101BB</discriminatorColumn>
+<discriminatorValue>Estudiante</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

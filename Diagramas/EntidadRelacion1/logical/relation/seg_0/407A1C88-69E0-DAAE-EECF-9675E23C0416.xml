@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Horario_Persona" directorySegmentName="seg_0" id="407A1C88-69E0-DAAE-EECF-9675E23C0416">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:54:07 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B46F866C-8A31-7530-E792-0474E5AB10FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01B7F919-9A4C-9BF6-5C4D-C7CEA137FC2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

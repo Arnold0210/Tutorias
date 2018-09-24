@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Relactional1" id="D878D95C-F43E-698A-FA7E-4AD4686C73FB" version="3.5">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:48:05 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D878D95C-F43E-698A-FA7E-4AD4686C73FB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="38AD84EE-2E3F-0810-D52C-79658AC89420">
+<designStoragePath>C:\Users\TRABAJO\Documents\2018-I\Sistemas de Información\tutorialsystem\Diagramas\EntidadRelacion1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

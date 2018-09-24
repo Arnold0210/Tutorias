@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01B7F919-9A4C-9BF6-5C4D-C7CEA137FC2E" name="Horario">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:25:53 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idHorario" id="CB8FCB73-BEB1-7B02-AB6B-AB3BE9951575">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:26:22 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia" id="C60B5CE5-1A2A-F852-D6CC-0A8C1A41C13B">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:26:49 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaInicio" id="D6A3367B-E181-1CF3-A1BA-853E0D0B61F7">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:27:01 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaFinal" id="2CF4404D-6243-ECCC-8A9F-C0F567BE50A8">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:27:15 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F827FB4-4BBB-C86D-3309-AA94731059E5" name="Horario PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 04:26:47 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB8FCB73-BEB1-7B02-AB6B-AB3BE9951575</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

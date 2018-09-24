@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9597066-A4B0-A8E1-0D36-24B2C35BC6FE" name="Persona">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>C3CE0A89-6592-6968-9973-ECAA0097EF68</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>pers</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<existDependencyConstraintName>ValueDiscriminator</existDependencyConstraintName>
+<existDependencyGenerationLevel>Discriminator value</existDependencyGenerationLevel>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_ID" id="930CE55A-D429-C19F-1BE6-9D3772C65A77">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>485ECFF8-1558-6A4A-CBD2-5810B0126928</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_pers_codigo</notNullConstraintName>
+</Column>
+<Column name="pers_nombres" id="26A63770-A2E0-9AF2-FD23-C5A5AE0A793F">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>272B3734-284D-36A0-A10B-26A81EE18E5A</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_pers_nombres</notNullConstraintName>
+</Column>
+<Column name="pers_apellidos" id="37EFE108-F93A-6F1D-B6E6-06A172527B24">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>1753009E-9457-0783-B2CF-F695DAE5B40A</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_pers_apellidos</notNullConstraintName>
+</Column>
+<Column name="pers_correo" id="6E0FB39F-0E81-5D1C-47E3-CD17510B261D">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>0490F543-B5B3-587E-FF5B-4EED1D1926D2</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_pers_correo</notNullConstraintName>
+</Column>
+<Column name="pers_programa" id="B7ABAB0F-C19B-B647-5340-CFB2D3DDF10F">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>D09E4429-31B3-F3D8-6120-CD31648C563A</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_pers_programa</notNullConstraintName>
+</Column>
+<Column name="Usuario_user" id="8A886A6A-B43E-C50B-65D7-1E4C2F08BAA5">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>96C98683-5AF6-C242-3A3B-5EBEF55E1C7E</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_pers_Usuario_user</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6922CE52-5FD9-54D1-21F5-FC210417E784" referredColumn="FCEF4DAB-A667-DE35-29BE-E086348731E1"/>
+</associations>
+</Column>
+<Column name="tipoPersona" id="96E2705F-05A8-F036-4240-B77D9C6101BB">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 18:08:41 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Estudiante" description=""/>
+<valueDef value="Profesor" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F629479-62C6-3071-D5FE-5ECEEB1BD64D" name="Persona_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>1FE504C2-0396-F844-1333-B39F3A5AE54B</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="930CE55A-D429-C19F-1BE6-9D3772C65A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82B96389-1FE9-31C2-8C5B-C744A48BBD43" name="Persona_Usuario_user_IDX">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>39C50E95-46CA-6BAC-8AD8-F8548E8A0684</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8A886A6A-B43E-C50B-65D7-1E4C2F08BAA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA2EC98C-78CC-8C3D-FAF7-C5E0889CF168" name="Persona_Usuario_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>39C50E95-46CA-6BAC-8AD8-F8548E8A0684</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A886A6A-B43E-C50B-65D7-1E4C2F08BAA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

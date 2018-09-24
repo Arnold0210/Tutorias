@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6435f12-abf6-45a1-8ee9-051b5b1a01a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,7 +58,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -297,16 +301,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.464986" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.35478547" />
+      <window_info anchor="bottom" id="Version Control" order="3" visible="true" weight="0.35478547" />
       <window_info anchor="bottom" id="Python Console" order="15" weight="0.37353435" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.24422443" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.53501403" weight="0.22110553" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.23600605" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.24357034" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.31164902" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3290469" />
@@ -327,7 +331,7 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32838285" />
       <window_info id="Favorites" order="0" sideWeight="0.50165015" side_tool="true" weight="0.22541603" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49834985" visible="true" weight="0.22541603" />
@@ -335,9 +339,9 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3551089" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.24422443" />
       <window_info anchor="bottom" id="Inspection Results" order="1" sideWeight="0.6354009" weight="0.32838285" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.53501403" weight="0.22110553" />
@@ -688,7 +692,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

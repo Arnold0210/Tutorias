@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Est_Prog" directorySegmentName="seg_0" id="50F1770D-78FC-8953-C5DF-3713E8EE3157">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 05:57:32 UTC</createdTime>
+<ownerDesignName>EntidadRelacion1</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E90F11BC-35D5-FD56-A1AD-73A94FFCAB5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD6F8B7A-5933-A11A-2D3D-FCD91848134D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

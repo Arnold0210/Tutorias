@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAC691BB-E425-C544-53D9-57CBBC099D3C" name="Tutoria">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<ordsAlias>prof_mat</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesor_pers_codigo" id="500B76E5-1648-D8F1-2B5A-0C92D05893B3">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64C1E9CF-8DC2-40C2-B55F-AB3A20E024FB" referredColumn="B341067C-EC37-DA63-4841-948D8EF0A558"/>
+</associations>
+</Column>
+<Column name="Materia_codigo" id="0C526B40-091F-148F-B7BF-A28EB0942E57">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17656B0A-8454-641B-C61B-DC4E99A3E9CB" referredColumn="1F0B3243-4AB8-CBA2-BEC3-F48F47F95FFC"/>
+</associations>
+</Column>
+<Column name="Horario_idHorario" id="8CA41FF5-B5D3-D38C-5C74-14DDF7B529B0">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:04:36 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB0BFD46-6B25-4F2B-6966-FDC6EF21661F" referredColumn="3A534A3E-3E1A-20E5-B7BF-E5DEFBEC0D95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28AB841C-677A-0994-6C95-AEA644D1398C" name="Prof_Mat_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="500B76E5-1648-D8F1-2B5A-0C92D05893B3"/>
+<colUsage columnID="0C526B40-091F-148F-B7BF-A28EB0942E57"/>
+<colUsage columnID="8CA41FF5-B5D3-D38C-5C74-14DDF7B529B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8726700-04A3-7545-AC7A-4686928BDDEF" name="Tutoria_Materia_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:04:36 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C526B40-091F-148F-B7BF-A28EB0942E57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CF613C4-8854-3647-E663-4A969B8C635A" name="Tutoria_Profesor_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:04:36 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="500B76E5-1648-D8F1-2B5A-0C92D05893B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBD01E03-BB9A-F487-F91A-B0E16E4AD607" name="Tutoria_Horario_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:04:36 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CA41FF5-B5D3-D38C-5C74-14DDF7B529B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

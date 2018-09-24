@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FA321A5-C1CC-2958-DC36-BE2FA7E7740B" name="Reporte">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>88604FCE-E46F-B20C-2D1A-AA7646D6A468</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMateria" id="B10B3D8D-D1DE-06A9-9CBF-D1E7FE55D4CF">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>0ED47B37-8F06-F0C3-83BE-98F39846D6CE</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<referedAttribute>DD701F8D-04CB-91B5-DFAD-E71C6E145D59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idHorario" id="3F913BE4-BFD9-CCBE-C94D-2D581BDC008A">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>EA9CBB20-4EEA-F328-BBF8-4399C925EE5C</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<referedAttribute>78EDF89F-AD8C-EC03-5D71-BB794B85AD0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="2B06FDE2-2799-2346-DD5E-57968588EBC0">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>636E14E3-E19E-51F5-783E-798614587BD7</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<referedAttribute>485ECFF8-1558-6A4A-CBD2-5810B0126928</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="68DE8774-F80B-F6BB-6D6C-D8775ED6D9CD">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:11:52 UTC</createdTime>
+<generatorID>F4B22279-B33C-98C4-288E-E6004B75482F</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<referedAttribute>485ECFF8-1558-6A4A-CBD2-5810B0126928</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idReporte" id="72D1FE15-EE64-D896-BA11-14EB87369B62">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:22:09 UTC</createdTime>
+<generatorID>D91BC033-3A72-83B6-3740-CE5DF8A01283</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7037F166-4755-1ED2-34A4-1611240E430C" name="Reporte PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:18:16 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+</identifier>
+<identifier id="4CB7E0E5-404E-CFB1-B153-053B7A618795" name="Reporte PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 16:22:09 UTC</createdTime>
+<generatorID>693405F8-571F-B1EE-610D-3265585F7C2D</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72D1FE15-EE64-D896-BA11-14EB87369B62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

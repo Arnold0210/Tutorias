@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6738B2F-92C2-48E0-F09B-B50A52EABFD0" name="Estudiante">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>3B854F5C-A76C-87B5-FD94-25C1533FCEC7</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>estd</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pers_codigo" id="CF4D1F6A-3121-159B-9030-526BB4BA51B9">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>485ECFF8-1558-6A4A-CBD2-5810B0126928</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCAC0282-0851-088D-4F06-68530E8A9808" referredColumn="930CE55A-D429-C19F-1BE6-9D3772C65A77"/>
+</associations>
+</Column>
+<Column name="estd_semestre" id="FC60DA54-7D87-4C49-4FE6-CF2AB323E7E3">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>49423B94-16B6-A801-CB24-BF66C3BC51AF</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80228DC6-2FA1-D988-E043-563D41C0A1DC" name="Estudiante_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>1FE504C2-0396-F844-1333-B39F3A5AE54B</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4D1F6A-3121-159B-9030-526BB4BA51B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3DEFF96-8DE6-3EFC-CCE1-DEF9E6A5B625" name="Estudiante_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>940EBE29-CA54-548D-BAE9-4304B66CABD1</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4D1F6A-3121-159B-9030-526BB4BA51B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

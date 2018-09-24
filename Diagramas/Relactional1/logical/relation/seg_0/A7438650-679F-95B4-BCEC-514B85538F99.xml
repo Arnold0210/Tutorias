@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tutoria" directorySegmentName="seg_0" id="A7438650-679F-95B4-BCEC-514B85538F99">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:06 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<importedID>00313EB8-C6C2-A13C-2714-E73763BE6123</importedID>
+<engineerTo>
+<item key="7EEDC18F-87FA-7098-A150-235143E24D05" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8BBF2C65-A848-B7D1-A09C-6CFBE51A7D34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>826D29F9-A295-C132-C4DF-879ADF1C9144</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

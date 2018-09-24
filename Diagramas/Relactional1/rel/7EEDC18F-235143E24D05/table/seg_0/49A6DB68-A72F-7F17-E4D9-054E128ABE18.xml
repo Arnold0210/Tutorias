@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49A6DB68-A72F-7F17-E4D9-054E128ABE18" name="Horario_Persona">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Profesor_pers_codigo" id="F8F617AE-11B0-E93B-9FA8-728B605347FE">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD323969-D5D1-AA1E-53E8-BFC9E72204C3" referredColumn="B341067C-EC37-DA63-4841-948D8EF0A558"/>
+</associations>
+</Column>
+<Column name="Horario_idHorario" id="BFC8C47D-BA00-DF90-D095-C6A47377A5E9">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9464325E-4214-BF3B-C7FC-9D692E3A9411" referredColumn="3A534A3E-3E1A-20E5-B7BF-E5DEFBEC0D95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77A84BE4-889D-94F7-E4AB-2D0B5CB32FB9" name="Horario_Persona_PK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<ownerDesignName>Relactional1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8F617AE-11B0-E93B-9FA8-728B605347FE"/>
+<colUsage columnID="BFC8C47D-BA00-DF90-D095-C6A47377A5E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2C354EF-7B89-3DB1-65DF-071997018BDD" name="Profesor_Horario_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>BCFA43B2-C6F6-7BE9-BB24-A2D8910173EC</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8F617AE-11B0-E93B-9FA8-728B605347FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE883A4-EE39-A465-F85E-3DDE1736BC5F" name="Horario_Horairio_Persona_FK">
+<createdBy>Arnold</createdBy>
+<createdTime>2018-05-07 13:51:28 UTC</createdTime>
+<generatorID>BCFA43B2-C6F6-7BE9-BB24-A2D8910173EC</generatorID>
+<ownerDesignName>Relactional1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFC8C47D-BA00-DF90-D095-C6A47377A5E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
